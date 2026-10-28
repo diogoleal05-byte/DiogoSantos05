@@ -85,7 +85,7 @@ const CAPAS = {
   const [slug, img, out, posY='0', zoom='100', posX='50'] = process.argv.slice(2);
   const [serie, html] = CAPAS[slug];
   const foto = {bg:b64(img, img.endsWith('.png')?'image/png':'image/jpeg'), pos:`${posX}% ${posY}%`, size:`${zoom}% auto`};
-  const ai = `<div class="ai">Imagem criada com IA</div>`;
+  const ai = process.env.AI_LABEL ? `<div class="ai">Imagem criada com IA</div>` : "";
   const b = await chromium.launch();
   const p = await b.newPage({viewport:{width:1080,height:1350}});
   await p.setContent(page({foto, html}, 1, 7, serie).replace('<div class="wrap">', ai+'<div class="wrap">'), {waitUntil:'networkidle'});
