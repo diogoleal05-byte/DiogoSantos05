@@ -1,5 +1,5 @@
 // Capas IA do lote de novembro 2026 (mesmo estilo de gerar-carrosseis.js)
-// node capa-ia.js <slug> <imagem> <saida_sem_ext> [pos_y%] [label]
+// node capa-ia.js <slug> <imagem> <saida_sem_ext> [pos_y%] [zoom%] [pos_x%]
 const { chromium } = require(process.env.PW || 'playwright');
 const fs = require('fs');
 const b64 = (f, t) => `data:${t};base64,` + fs.readFileSync(f).toString('base64');
@@ -82,10 +82,10 @@ const CAPAS = {
 };
 
 (async () => {
-  const [slug, img, out, posY, label] = process.argv.slice(2);
+  const [slug, img, out, posY='0', zoom='100', posX='50'] = process.argv.slice(2);
   const [serie, html] = CAPAS[slug];
-  const foto = {bg:b64(img, img.endsWith('.png')?'image/png':'image/jpeg'), pos:`center ${posY||'0'}%`, size:'100% auto'};
-  const ai = label === 'sem-ia' ? '' : `<div class="ai">Imagem criada com IA</div>`;
+  const foto = {bg:b64(img, img.endsWith('.png')?'image/png':'image/jpeg'), pos:`${posX}% ${posY}%`, size:`${zoom}% auto`};
+  const ai = `<div class="ai">Imagem criada com IA</div>`;
   const b = await chromium.launch();
   const p = await b.newPage({viewport:{width:1080,height:1350}});
   await p.setContent(page({foto, html}, 1, 7, serie).replace('<div class="wrap">', ai+'<div class="wrap">'), {waitUntil:'networkidle'});
