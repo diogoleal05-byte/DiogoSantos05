@@ -20,7 +20,7 @@
   --creme:#f6f2ec; --papel:#fffdf9; --tinta:#1e293f; --tinta-2:#4a5468; --linha:#e3dccf;
   --serif:"Playfair Display",Georgia,"Times New Roman",serif;
   --sans:"Inter",-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  --wa:#1f8f4e;
+  --wa:#bc8345; --wa-escuro:#a06d34;
   color-scheme:light;
 }
 *{box-sizing:border-box}
@@ -45,7 +45,7 @@ section{padding-block:clamp(64px,9vw,112px)}
 .btn{display:inline-flex;align-items:center;gap:10px;padding:15px 22px;border-radius:2px;font:600 15px/1 var(--sans);text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
 .btn svg{width:18px;height:18px;flex:none}
 .btn-wa{background:var(--wa);color:#fff}
-.btn-wa:hover{background:#18763f}
+.btn-wa:hover{background:var(--wa-escuro)}
 .btn-ln{border-color:currentColor;color:var(--tinta);background:transparent}
 .btn-ln:hover{background:var(--tinta);color:var(--creme)}
 .on-navy .btn-ln{color:#fff}
@@ -57,13 +57,11 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
 .marca{display:flex;align-items:center;gap:12px;text-decoration:none}
 .marca img{height:40px;width:auto}
-.marca span{font:500 18px/1 var(--serif);letter-spacing:.02em}
 nav{display:flex;gap:26px;font:500 14px/1 var(--sans)}
 nav a{text-decoration:none;color:rgba(255,255,255,.78)}
 nav a:hover{color:#fff}
 header .btn{padding:11px 16px;font-size:14px}
 @media (max-width:900px){nav{display:none}}
-@media (max-width:420px){.marca span{display:none}}
 
 /* topo */
 .hero{background:var(--navy);color:#fff;padding-block:0;overflow:hidden}
@@ -119,21 +117,23 @@ header .btn{padding:11px 16px;font-size:14px}
 
 /* imóveis */
 .imoveis{background:var(--papel);border-block:1px solid var(--linha)}
-.imovel{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(24px,4vw,56px);align-items:start}
+.lista-imoveis{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,4vw,48px);align-items:start}
+.imovel{display:grid;gap:22px;min-width:0}
 .galeria{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
 .galeria img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
 .galeria img:first-child{grid-column:1/-1;aspect-ratio:16/10}
-.ficha{display:grid;gap:20px;min-width:0}
-.ficha h3{font-size:clamp(28px,3.2vw,38px)}
-.dados{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:8px 32px;padding-block:18px;border-block:1px solid var(--linha)}
+.ficha{display:grid;gap:18px;min-width:0}
+.ficha h3{font-size:clamp(26px,2.8vw,32px)}
+.dados{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:8px 32px;padding-block:16px;border-block:1px solid var(--linha)}
 .dados div{display:grid;gap:4px}
 .dados small{font:600 11px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--tinta-2)}
-.dados b{font:500 28px/1 var(--serif);white-space:nowrap;color:var(--navy);font-variant-numeric:lining-nums}
+.dados b{font:500 26px/1 var(--serif);white-space:nowrap;color:var(--navy);font-variant-numeric:lining-nums}
 .dados b.ouro{color:var(--bronze)}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chips span{font-size:13px;padding:6px 12px;border:1px solid var(--linha);border-radius:999px;color:var(--tinta-2);background:var(--creme)}
 .nota{font-size:14px;color:var(--tinta-2)}
-@media (max-width:860px){.imovel{grid-template-columns:1fr}}
+.imoveis .rodape-sec{margin-top:clamp(32px,4vw,48px)}
+@media (max-width:860px){.lista-imoveis{grid-template-columns:1fr}}
 
 /* almeirim */
 .almeirim{background:var(--navy);color:#fff}
@@ -218,8 +218,7 @@ footer .wrap{display:grid;gap:22px}
 <header>
   <div class="wrap">
     <a class="marca" href="#topo" aria-label="Diogo Santos, início">
-      <img src="img/logo-branco.png" alt="" width="54" height="40">
-      <span>Diogo Santos</span>
+      <img src="img/logo-branco.png" alt="Diogo Santos" width="54" height="40">
     </a>
     <nav aria-label="Secções">
       <a href="#como-trabalho">Como trabalho</a>
@@ -238,7 +237,7 @@ footer .wrap{display:grid;gap:22px}
   <div class="wrap">
     <div class="hero-txt">
       <p class="eb">Consultor imobiliário · Almeirim e Ribatejo</p>
-      <h1>Vender a sua casa em Almeirim, <em>com um plano.</em></h1>
+      <h1>Vender a sua casa, <em>com um plano.</em></h1>
       <p class="lead">Sou o Diogo Santos. Ajudo proprietários a vender bem e sem surpresas. Sabe sempre o que está a ser feito, quem viu a casa e o que vem a seguir.</p>
       <div class="btns">
         <a class="btn btn-wa" data-wa="almeirim" href="https://wa.me/351916945324" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Falar comigo no WhatsApp</a>
@@ -301,28 +300,47 @@ footer .wrap{display:grid;gap:22px}
       <p class="eb">Imóveis à venda</p>
       <h2>O que tenho <em>neste momento.</em></h2>
     </div>
-    <article class="imovel">
-      <div class="galeria">
-        <img src="img/fazendas-fachada.jpg" alt="Fachada da moradia T3 em Fazendas de Almeirim" width="1200" height="800" loading="lazy">
-        <img src="img/fazendas-sala-1.jpg" alt="Sala com lareira" width="1200" height="800" loading="lazy">
-        <img src="img/fazendas-cozinha.jpg" alt="Cozinha" width="1200" height="800" loading="lazy">
-        <img src="img/fazendas-patio.jpg" alt="Pátio e alpendre" width="1200" height="800" loading="lazy">
-      </div>
-      <div class="ficha">
-        <p class="eb">Fazendas de Almeirim</p>
-        <h3>Moradia T3 para viver com espaço.</h3>
-        <div class="dados">
-          <div><small>Tipologia</small><b>T3</b></div>
-          <div><small>Área</small><b>215 m²</b></div>
-          <div><small>Preço</small><b class="ouro">399.000 €</b></div>
+    <div class="lista-imoveis">
+      <article class="imovel">
+        <div class="galeria">
+          <img src="img/fazendas-fachada.jpg" alt="Fachada da moradia T3 em Fazendas de Almeirim" width="1200" height="800" loading="lazy">
+          <img src="img/fazendas-sala-1.jpg" alt="Sala com lareira" width="1200" height="800" loading="lazy">
+          <img src="img/fazendas-cozinha.jpg" alt="Cozinha" width="1200" height="800" loading="lazy">
+          <img src="img/fazendas-patio.jpg" alt="Pátio e alpendre" width="1200" height="800" loading="lazy">
         </div>
-        <div class="chips"><span>Lareira</span><span>Garagem</span><span>Pátio amplo</span><span>Alpendre</span><span>Ar condicionado</span></div>
-        <div class="btns">
-          <a class="btn btn-wa" data-wa="fazendas" href="https://wa.me/351916945324" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Marcar visita</a>
+        <div class="ficha">
+          <p class="eb">Fazendas de Almeirim</p>
+          <h3>Moradia T3 para viver com espaço.</h3>
+          <div class="dados">
+            <div><small>Tipologia</small><b>T3</b></div>
+            <div><small>Área</small><b>215 m²</b></div>
+            <div><small>Preço</small><b class="ouro">399.000 €</b></div>
+          </div>
+          <div class="chips"><span>Lareira</span><span>Garagem</span><span>Pátio amplo</span><span>Alpendre</span><span>Ar condicionado</span></div>
+          <div class="btns">
+            <a class="btn btn-wa" data-wa="fazendas" href="https://wa.me/351916945324" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Marcar visita</a>
+          </div>
         </div>
-        <p class="nota">Procura outra coisa? Diga-me o que precisa. Muitas casas vendem-se antes de chegarem aos portais.</p>
-      </div>
-    </article>
+      </article>
+      <article class="imovel">
+        <div class="galeria">
+          <img src="img/ribafria.jpg" alt="Moradias em banda em Ribafria, com vinhas e campo à volta" width="1200" height="647" loading="lazy">
+        </div>
+        <div class="ficha">
+          <p class="eb">Ribafria, Alenquer</p>
+          <h3>Moradia T3 entre vinhas, perto de Lisboa.</h3>
+          <div class="dados">
+            <div><small>Tipologia</small><b>T3</b></div>
+            <div><small>Área</small><b>167 m²</b></div>
+            <div><small>Preço</small><b class="ouro">369.900 €</b></div>
+          </div>
+          <div class="btns">
+            <a class="btn btn-wa" data-wa="ribafria" href="https://wa.me/351916945324" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Marcar visita</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <p class="nota rodape-sec">Procura outra coisa? Diga-me o que precisa. Muitas casas vendem-se antes de chegarem aos portais.</p>
   </div>
 </section>
 
@@ -466,6 +484,7 @@ footer .wrap{display:grid;gap:22px}
     geral: 'Olá Diogo, vi o seu site e queria falar consigo.',
     almeirim: 'Olá Diogo, tenho uma casa na zona de Almeirim e estou a pensar vender. Podemos falar?',
     fazendas: 'Olá Diogo, vi a moradia T3 em Fazendas de Almeirim no seu site e gostava de marcar uma visita.',
+    ribafria: 'Olá Diogo, vi a moradia T3 em Ribafria no seu site e gostava de marcar uma visita.',
     mudar: 'Olá Diogo, estou a pensar mudar-me de Lisboa para o Ribatejo. Pode ajudar-me?'
   };
   function link(t){ return 'https://wa.me/' + NUM + '?text=' + encodeURIComponent(t); }
