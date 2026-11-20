@@ -1,10 +1,11 @@
 // Mente em Foco: carrosséis de um lote. node gerar-carrosseis.js <pasta_lote> <pasta_fotos>
-const { chromium } = require('/opt/node-tools/node_modules/playwright');
+const { chromium } = require(process.env.PW || '/opt/node-tools/node_modules/playwright');
 const fs = require('fs'), path = require('path');
 const [LOTE, FOTOS] = process.argv.slice(2);
 const d = JSON.parse(fs.readFileSync(path.join(LOTE, 'conteudo.json')));
 const F = (n) => { let p = path.join(FOTOS, n + '.png'); if (!fs.existsSync(p)) p = path.join(__dirname, 'fotos-ia', n + '.png'); return 'data:image/png;base64,' + fs.readFileSync(p).toString('base64'); };
 const GOLD = '#d6a645';
+const MOCK = () => 'data:image/png;base64,' + fs.readFileSync(path.join(__dirname, 'mockup-livro.png')).toString('base64');
 const FONTS = `<link href="https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@500;700&family=Inter:wght@500;700&display=swap" rel="stylesheet">`;
 const LOGO = `<div class="logo"><svg viewBox="0 0 120 50" width="90"><circle cx="60" cy="22" r="11" fill="${GOLD}"/><path d="M8 48 L42 16 L54 28 L66 12 L112 48 Z" fill="#111" stroke="#eee" stroke-width="2.4" stroke-linejoin="round"/></svg><div class="lt">MENTE <span>EM FOCO</span></div></div>`;
 const css = `*{margin:0;padding:0;box-sizing:border-box}
@@ -47,6 +48,11 @@ function slide(s, i, n) {
       <div class="tag">MITO</div><div class="mito">${s.mito}</div>
       <div style="height:70px"></div>
       <div class="tag v">VERDADE</div><div class="p" style="font-size:54px">${s.v}</div></div></div>`, s.foto);
+  if (s.tipo === 'guia') return page(`${D}<div style="position:absolute;top:110px;left:0;right:0">${LOGO}</div>
+    <div class="h" style="position:absolute;left:80px;top:290px;width:560px;font-size:110px">${s.t}</div>
+    <div class="p" style="position:absolute;left:80px;top:${290 + s.t.split('<br>').length * 114 + 40}px;width:500px;font-size:36px">${s.p}</div>
+    <img src="${MOCK()}" style="position:absolute;right:-60px;top:330px;width:540px;transform:rotate(6deg)">
+    <div style="position:absolute;left:80px;right:80px;top:1060px;border:2px solid ${GOLD};background:rgba(0,0,0,.6);padding:26px 34px;font:700 34px/1.4 Inter">${s.cta}</div>`);
   if (s.tipo === 'fim') return page(`${D}<div style="position:absolute;top:110px;left:0;right:0">${LOGO}</div>
     <div class="h" style="position:absolute;left:80px;right:80px;top:260px;font-size:104px">${s.t}</div>
     <div style="position:absolute;left:80px;right:80px;top:1040px;border:2px solid ${GOLD};background:rgba(0,0,0,.6);padding:26px 34px;font:700 34px/1.4 Inter">Guarda para releres.<br><span class="g">Segue @_mente_emfoco_ para mais.</span></div>`, s.foto);

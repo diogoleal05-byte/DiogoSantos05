@@ -1,6 +1,6 @@
 // Mente em Foco: Reel frase animada. node gerar-reel.js <saida_dir> <foto> "<linha1>" "<linha2>"
 // Gera PNG transparentes (camadas) 1080x1920; a montagem é feita com ffmpeg (montar-reel.sh)
-const { chromium } = require('/opt/node-tools/node_modules/playwright');
+const { chromium } = require(process.env.PW || '/opt/node-tools/node_modules/playwright');
 const [OUT, , L1, L2] = process.argv.slice(2);
 const GOLD = '#d6a645';
 const FONTS = `<link href="https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@500;700&family=Inter:wght@500;700&display=swap" rel="stylesheet">`;

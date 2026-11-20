@@ -1,0 +1,867 @@
+{
+ "reels": [
+  {
+   "data": "2027-01-01",
+   "foto": "d01",
+   "l1": "Não precisas<br>de um ano novo.",
+   "l2": "Precisas de<br>um dia bom.<br>Hoje.",
+   "leg": "Ninguém muda o ano inteiro de uma vez. Muda-se um dia. Depois outro.\n\nO que vais fazer hoje para começar bem?\n\nQueres um plano dia a dia? O guia 30 Dias de Foco está no link da bio."
+  },
+  {
+   "data": "2027-01-02",
+   "foto": "d02",
+   "l1": "Devagar também",
+   "l2": "é andar<br>para a frente.",
+   "leg": "Não tens de começar a correr. Tens de começar.\n\nEnvia a alguém que acha que vai devagar demais."
+  },
+  {
+   "data": "2027-01-03",
+   "foto": "d03",
+   "l1": "O que queres que<br>esta semana te traga?",
+   "l2": "Escreve<br>uma coisa só.",
+   "leg": "Uma coisa escrita vale mais do que dez na cabeça.\n\nEscreve a tua aqui nos comentários."
+  },
+  {
+   "data": "2027-01-04",
+   "foto": "d04",
+   "l1": "Os primeiros<br>30 minutos",
+   "l2": "não são do<br>telemóvel.<br>São teus.",
+   "leg": "Quem pega no telemóvel ao acordar começa o dia a responder aos outros.\n\nAmanhã, consegues 30 minutos sem ecrã?"
+  },
+  {
+   "data": "2027-01-05",
+   "foto": "d05",
+   "l1": "Acorda à<br>mesma hora.",
+   "l2": "O resto fica<br>mais fácil.",
+   "leg": "O corpo gosta de previsibilidade. Uma hora fixa vale mais do que acordar cedo de vez em quando.\n\nA que horas acordas?"
+  },
+  {
+   "data": "2027-01-06",
+   "foto": "d06",
+   "l1": "A manhã<br>ganha-se",
+   "l2": "na noite<br>anterior.",
+   "leg": "Roupa escolhida, tarefas escritas, telemóvel fora do quarto. De manhã é só fazer.\n\nEnvia a quem acorda sempre a correr."
+  },
+  {
+   "data": "2027-01-07",
+   "foto": "d07",
+   "l1": "Faz a cama.",
+   "l2": "Primeira tarefa<br>cumprida.",
+   "leg": "Parece pouco. Mas começar o dia com uma coisa feita muda o tom ao resto.\n\nJá fizeste a tua hoje?"
+  },
+  {
+   "data": "2027-01-08",
+   "foto": "d08",
+   "l1": "Uma rotina<br>simples",
+   "l2": "bate uma<br>rotina perfeita.",
+   "leg": "A rotina perfeita dura uma semana. A simples dura o ano todo.\n\nQual é a tua rotina mínima?"
+  },
+  {
+   "data": "2027-01-09",
+   "foto": "d09",
+   "l1": "Não acordes<br>a correr.",
+   "l2": "Acorda com<br>intenção.",
+   "leg": "Dez minutos a mais de manhã podem poupar-te um dia inteiro de pressa.\n\nEnvia a alguém que vive em modo urgência."
+  },
+  {
+   "data": "2027-01-10",
+   "foto": "d10",
+   "l1": "Que hora da manhã<br>é só tua?",
+   "l2": "Protege-a<br>esta semana.",
+   "leg": "Nem que sejam 15 minutos. Sem mensagens, sem notícias. Só teus.\n\nQual é a tua hora?\n\nQueres um plano dia a dia? O guia 30 Dias de Foco está no link da bio."
+  },
+  {
+   "data": "2027-01-11",
+   "foto": "d11",
+   "l1": "Falhaste<br>um dia?",
+   "l2": "Não falhes<br>dois.",
+   "leg": "Um dia falhado é um acidente. Dois seguidos é o início de outro hábito.\n\nGuarda para o próximo dia mau."
+  },
+  {
+   "data": "2027-01-12",
+   "foto": "d12",
+   "l1": "Consistência<br>não é perfeição.",
+   "l2": "É voltar<br>sempre.",
+   "leg": "Ninguém cumpre todos os dias. Quem chega longe é quem volta mais depressa.\n\nEnvia a quem desiste ao primeiro deslize."
+  },
+  {
+   "data": "2027-01-13",
+   "foto": "d13",
+   "l1": "O dia mau<br>também conta",
+   "l2": "se fizeres<br>o mínimo.",
+   "leg": "Cinco minutos num dia mau valem mais do que zero.\n\nQual é o teu mínimo?"
+  },
+  {
+   "data": "2027-01-14",
+   "foto": "d14",
+   "l1": "Repetir é<br>aborrecido.",
+   "l2": "Também é<br>assim que<br>se ganha.",
+   "leg": "Não há segredo. Há repetição.\n\nO que andas a repetir este mês?"
+  },
+  {
+   "data": "2027-01-15",
+   "foto": "d15",
+   "l1": "Mede o<br>que fazes,",
+   "l2": "não o que<br>prometes.",
+   "leg": "Promessas não se contam. Dias feitos contam.\n\nQuantos dias cumpriste esta semana?"
+  },
+  {
+   "data": "2027-01-16",
+   "foto": "d16",
+   "l1": "A meta dá<br>a direção.",
+   "l2": "O hábito é que<br>te leva lá.",
+   "leg": "Olha para a meta uma vez. Olha para o hábito todos os dias.\n\nEnvia a quem tem metas e não tem hábitos."
+  },
+  {
+   "data": "2027-01-17",
+   "foto": "d17",
+   "l1": "Quantos dias<br>cumpriste esta<br>semana?",
+   "l2": "Conta.<br>E bate esse<br>número.",
+   "leg": "Não é para te julgares. É para saberes de onde partes.\n\nEscreve o teu número aqui.\n\nQueres um plano dia a dia? O guia 30 Dias de Foco está no link da bio."
+  },
+  {
+   "data": "2027-01-18",
+   "foto": "d18",
+   "l1": "Dia sem<br>energia?",
+   "l2": "Faz só<br>o mínimo.<br>Mas faz.",
+   "leg": "Há quem diga que hoje é o dia mais triste do ano. Não precisas de um dia perfeito. Precisas de não parar.\n\nEnvia a alguém que está a precisar."
+  },
+  {
+   "data": "2027-01-19",
+   "foto": "d19",
+   "l1": "Não precisas<br>de estar bem",
+   "l2": "para dar<br>um passo.",
+   "leg": "Às vezes a vontade só aparece depois de começares.\n\nQue passo vais dar hoje?"
+  },
+  {
+   "data": "2027-01-20",
+   "foto": "d20",
+   "l1": "Arruma a<br>secretária.",
+   "l2": "Arrumas<br>a cabeça.",
+   "leg": "Um espaço cheio é um espaço cheio de distrações.\n\nComo está a tua secretária agora?"
+  },
+  {
+   "data": "2027-01-21",
+   "foto": "d21",
+   "l1": "O teu<br>ambiente",
+   "l2": "ganha à tua<br>força de<br>vontade.",
+   "leg": "Se o telemóvel está à mão, vais pegar nele. Muda o sítio, muda o hábito.\n\nO que vais tirar da vista hoje?"
+  },
+  {
+   "data": "2027-01-22",
+   "foto": "d22",
+   "l1": "Esconde o que<br>te distrai.",
+   "l2": "Mostra o que<br>te ajuda.",
+   "leg": "Telemóvel na gaveta. Livro em cima da mesa. Simples.\n\nEnvia a quem trabalha a partir de casa."
+  },
+  {
+   "data": "2027-01-23",
+   "foto": "d23",
+   "l1": "Sai à rua<br>10 minutos.",
+   "l2": "Volta com<br>outra cabeça.",
+   "leg": "Luz natural e movimento resolvem mais do que mais um café.\n\nJá saíste hoje?"
+  },
+  {
+   "data": "2027-01-24",
+   "foto": "d24",
+   "l1": "O que te tirou<br>o foco esta<br>semana?",
+   "l2": "Tira-o do<br>caminho.",
+   "leg": "Identifica uma distração e corta-a esta semana. Só uma.\n\nQual é a tua?\n\nQueres um plano dia a dia? O guia 30 Dias de Foco está no link da bio."
+  },
+  {
+   "data": "2027-01-25",
+   "foto": "d25",
+   "l1": "Fevereiro não<br>é o problema.",
+   "l2": "O plano é<br>que era grande<br>demais.",
+   "leg": "A maioria não desiste por fraqueza. Desiste porque o plano não cabia na vida real.\n\nO teu plano ainda cabe?"
+  },
+  {
+   "data": "2027-01-26",
+   "foto": "d26",
+   "l1": "Corta para<br>metade.",
+   "l2": "Mas não<br>pares.",
+   "leg": "Metade todos os dias ganha ao dobro de vez em quando.\n\nEnvia a quem está prestes a desistir."
+  },
+  {
+   "data": "2027-01-27",
+   "foto": "d27",
+   "l1": "Ajustar não<br>é desistir.",
+   "l2": "É ser<br>inteligente.",
+   "leg": "Mudar o plano não é falhar. Falhar é deixar de tentar.\n\nO que precisas de ajustar?"
+  },
+  {
+   "data": "2027-01-28",
+   "foto": "d28",
+   "l1": "Não é o primeiro<br>passo que custa.",
+   "l2": "É o vigésimo<br>oitavo.",
+   "leg": "Começar é fácil. Continuar quando a novidade passa é que conta.\n\nEm que dia vais tu?"
+  },
+  {
+   "data": "2027-01-29",
+   "foto": "d29",
+   "l1": "O que funcionou<br>em janeiro,",
+   "l2": "leva para<br>fevereiro.",
+   "leg": "Não recomeces do zero. Fica com o que resultou.\n\nO que vais levar contigo?"
+  },
+  {
+   "data": "2027-01-30",
+   "foto": "d30",
+   "l1": "Janeiro está<br>a acabar.",
+   "l2": "Tu ainda<br>estás aqui.",
+   "leg": "Se ainda estás a tentar, já estás à frente da maioria.\n\nEnvia a quem começou o ano contigo."
+  },
+  {
+   "data": "2027-01-31",
+   "foto": "d31",
+   "l1": "Um mês feito.",
+   "l2": "Isso já é mais<br>do que a<br>maioria.",
+   "leg": "Trinta e um dias. Uns melhores, outros piores. Mas feitos.\n\nComo correu o teu janeiro?\n\nQueres um plano dia a dia? O guia 30 Dias de Foco está no link da bio."
+  }
+ ],
+ "carrosseis": [
+  {
+   "data": "2027-01-01",
+   "nome": "objetivo-em-semanas",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d16",
+     "t": "Como partir<br><span class='g'>um objetivo</span><br>em passos de<br>uma semana.",
+     "sub": "Passo a passo. Guarda isto."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Escreve o<br><span class='g'>resultado final.</span>",
+     "p": "Concreto, com número e data.<br><b>\"Correr 10 km até junho.\"</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Divide em<br><span class='g'>4 etapas.</span>",
+     "p": "Uma por cada trimestre.<br><b>Cada uma mais perto do fim.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Escolhe a<br><span class='g'>primeira etapa.</span>",
+     "p": "Esquece as outras por agora.<br><b>Só esta conta.</b>",
+     "label": "PASSO",
+     "foto": "d29"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Transforma-a<br><span class='g'>em semanas.</span>",
+     "p": "O que fazes esta semana para lá chegar?<br><b>Uma ação. Não dez.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Marca na<br><span class='g'>agenda.</span>",
+     "p": "Dia e hora.<br><b>O que não tem hora não acontece.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "item",
+     "n": "06",
+     "t": "Revê ao<br><span class='g'>domingo.</span>",
+     "p": "Fizeste? Ajusta a próxima semana.<br><b>E repete.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "fim",
+     "foto": "d31",
+     "t": "Ninguém sobe<br>a montanha<br>de uma vez.<br><span class='g'>Sobe um passo<br>de cada vez.</span>"
+    }
+   ],
+   "leg": "Um objetivo grande assusta. Uma ação por semana não.\n\nQual é o teu objetivo número 1 para 2027? Escreve-o aqui.\n\nGuarda isto e faz o passo 1 ainda hoje."
+  },
+  {
+   "data": "2027-01-04",
+   "nome": "primeiros-30-minutos",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "j01",
+     "t": "<span class='g'>5 coisas</span><br>a não fazer<br>nos primeiros<br>30 minutos.",
+     "sub": "A 1.ª faz quase toda a gente."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Pegar no<br><span class='g'>telemóvel.</span>",
+     "p": "Abres os olhos e já estás a ler o que os outros querem.<br><b>O dia começa a reagir.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Carregar<br><span class='g'>no snooze.</span>",
+     "p": "Mais 9 minutos não te dão descanso.<br><b>Dão-te um acordar mais pesado.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Ver as<br><span class='g'>notícias.</span>",
+     "p": "Ansiedade logo de manhã.<br><b>Ficam para mais tarde.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Café antes<br><span class='g'>de água.</span>",
+     "p": "Acordas desidratado.<br><b>Primeiro um copo de água.</b>",
+     "foto": "j02"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Começar sem<br><span class='g'>saber o quê.</span>",
+     "p": "Decide na véspera a primeira tarefa.<br><b>De manhã é só fazer.</b>"
+    },
+    {
+     "tipo": "fim",
+     "foto": "d01",
+     "t": "A manhã<br>não é para<br>os outros.<br><span class='g'>É tua.</span>"
+    }
+   ],
+   "leg": "Os primeiros 30 minutos decidem se passas o dia a escolher ou a reagir.\n\nQual destas é a mais difícil para ti? Escreve o número.\n\nGuarda para amanhã de manhã. Envia a alguém que acorda agarrado ao telemóvel."
+  },
+  {
+   "data": "2027-01-06",
+   "nome": "rotina-da-noite",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d06",
+     "t": "Rotina da noite<br><span class='g'>em 5 passos.</span>",
+     "sub": "A manhã começa na véspera."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Hora de<br><span class='g'>desligar.</span>",
+     "p": "30 minutos antes de dormir, ecrãs fora.<br><b>Põe um alarme para isso.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Escreve as<br><span class='g'>3 tarefas<br>de amanhã.</span>",
+     "p": "A cabeça descansa melhor<br><b>quando não tem de se lembrar.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Prepara o<br><span class='g'>que puderes.</span>",
+     "p": "Roupa, mochila, pequeno-almoço.<br><b>Menos decisões de manhã.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Telemóvel<br><span class='g'>fora do quarto.</span>",
+     "p": "A carregar noutra divisão.<br><b>Despertador simples ao lado da cama.</b>",
+     "label": "PASSO",
+     "foto": "d05"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Luz baixa,<br><span class='g'>cabeça calma.</span>",
+     "p": "Ler umas páginas, alongar, respirar.<br><b>O corpo percebe que é hora.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "fim",
+     "foto": "d07",
+     "t": "Uma boa manhã<br>não começa<br>de manhã.<br><span class='g'>Começa hoje<br>à noite.</span>"
+    }
+   ],
+   "leg": "Quase todas as manhãs difíceis começaram numa noite sem plano.\n\nQual destes passos vais testar hoje?\n\nGuarda para esta noite. Envia a alguém que acorda sempre a correr."
+  },
+  {
+   "data": "2027-01-08",
+   "nome": "rotina-ambiciosa",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d08",
+     "t": "<span class='g'>3 sinais</span><br>de que a tua<br>rotina nova<br>é demais.",
+     "sub": "Menos é o que dura."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Precisas de<br><span class='g'>2 horas.</span>",
+     "p": "Se a rotina só cabe num dia perfeito,<br><b>não cabe na tua vida.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Mudaste<br><span class='g'>tudo de uma vez.</span>",
+     "p": "Acordar cedo, treinar, ler, meditar, dieta.<br><b>Começa só por uma.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Um dia falhado<br><span class='g'>estraga tudo.</span>",
+     "p": "Se falhar uma vez te faz desistir,<br><b>a rotina é rígida demais.</b>",
+     "foto": "d09"
+    },
+    {
+     "tipo": "item",
+     "n": "+",
+     "t": "Faz a versão<br><span class='g'>mínima.</span>",
+     "p": "10 minutos que fazes todos os dias<br><b>valem mais do que 1 hora às vezes.</b>",
+     "label": "A SOLUÇÃO"
+    },
+    {
+     "tipo": "fim",
+     "foto": "j02",
+     "t": "Uma rotina<br>simples<br>bate uma<br><span class='g'>rotina perfeita.</span>"
+    }
+   ],
+   "leg": "Janeiro está cheio de rotinas perfeitas que não chegam a fevereiro.\n\nQual é a versão mínima da tua rotina? Escreve aqui.\n\nEnvia a quem começou o ano com 10 hábitos novos."
+  },
+  {
+   "data": "2027-01-11",
+   "nome": "nunca-falhar-dois",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d11",
+     "t": "Falhaste<br>um dia?<br><span class='g'>Lê isto.</span>",
+     "sub": "A regra que salva qualquer hábito."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Nunca falhes<br><span class='g'>dois seguidos.</span>",
+     "p": "Um dia falhado é um acidente.<br><b>Dois é o início de um hábito novo.</b>",
+     "label": "A REGRA"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Um dia<br><span class='g'>não estraga nada.</span>",
+     "p": "O que estraga é o \"já agora\".<br><b>\"Já falhei, já não vale a pena.\"</b>",
+     "label": "PORQUÊ"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Faz a versão<br><span class='g'>mais pequena.</span>",
+     "p": "Não deu para 30 minutos? Faz 5.<br><b>O importante é não parar.</b>",
+     "label": "COMO"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Prepara o<br><span class='g'>dia seguinte.</span>",
+     "p": "Deixa tudo pronto à noite.<br><b>Amanhã não há desculpa.</b>",
+     "label": "COMO",
+     "foto": "d13"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Sem<br><span class='g'>culpa.</span>",
+     "p": "A culpa gasta energia.<br><b>Usa-a para voltar.</b>",
+     "label": "LEMBRA-TE"
+    },
+    {
+     "tipo": "fim",
+     "foto": "d12",
+     "t": "Falhar um dia<br>é humano.<br><span class='g'>Voltar no dia<br>seguinte é<br>disciplina.</span>"
+    }
+   ],
+   "leg": "Ninguém cumpre todos os dias. Quem chega longe é quem volta mais depressa.\n\nQual é o hábito que mais te custa manter?\n\nGuarda para o próximo dia mau. Envia a alguém que precisa de ouvir isto."
+  },
+  {
+   "data": "2027-01-13",
+   "nome": "mitos-consistencia",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d14",
+     "t": "<span class='g'>4 mitos</span><br>sobre<br>consistência.",
+     "sub": "O 2.º faz muita gente desistir."
+    },
+    {
+     "tipo": "mito",
+     "n": "01",
+     "mito": "Consistente é quem nunca falha.",
+     "v": "É quem volta sempre. Falhar faz parte."
+    },
+    {
+     "tipo": "mito",
+     "n": "02",
+     "mito": "Se não vês resultados, não está a resultar.",
+     "v": "Os resultados chegam atrasados. O esforço vem primeiro."
+    },
+    {
+     "tipo": "mito",
+     "n": "03",
+     "mito": "Tens de dar sempre o máximo.",
+     "v": "O mínimo todos os dias ganha ao máximo de vez em quando.",
+     "foto": "d15"
+    },
+    {
+     "tipo": "mito",
+     "n": "04",
+     "mito": "Consistência é uma questão de motivação.",
+     "v": "É uma questão de sistema: hora, sítio e versão mínima."
+    },
+    {
+     "tipo": "fim",
+     "foto": "d28",
+     "t": "Não precisas<br>de ser perfeito.<br><span class='g'>Precisas de<br>continuar.</span>"
+    }
+   ],
+   "leg": "Consistência não é nunca falhar. É nunca desistir de vez.\n\nQual destes mitos acreditavas?\n\nEnvia a alguém que acha que \"não tem disciplina\"."
+  },
+  {
+   "data": "2027-01-15",
+   "nome": "registar-habitos",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d15",
+     "t": "Como registar<br><span class='g'>os teus hábitos</span><br>sem obsessão.",
+     "sub": "Em papel. 10 segundos por dia."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "No máximo<br><span class='g'>3 hábitos.</span>",
+     "p": "Mais do que isso vira uma lista de culpas.<br><b>Escolhe os que importam.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Um X<br><span class='g'>por dia.</span>",
+     "p": "Fizeste? Marca. Não fizeste? Fica em branco.<br><b>Sem notas, sem desculpas.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "À vista,<br><span class='g'>não numa app.</span>",
+     "p": "Uma folha no frigorífico ou na secretária.<br><b>O que vês, fazes.</b>",
+     "label": "PASSO",
+     "foto": "d17"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Conta ao<br><span class='g'>domingo.</span>",
+     "p": "Quantos X esta semana?<br><b>Tenta bater esse número.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "O objetivo<br><span class='g'>não é 100%.</span>",
+     "p": "80% já muda a tua vida.<br><b>Não deixes o perfeito estragar o bom.</b>",
+     "label": "PASSO"
+    },
+    {
+     "tipo": "fim",
+     "foto": "d16",
+     "t": "O que<br>se regista<br><span class='g'>melhora.</span>"
+    }
+   ],
+   "leg": "Não precisas de uma app nem de um sistema complicado. Precisas de uma folha e de uma caneta.\n\nO guia 30 Dias de Foco traz uma folha de registo pronta a imprimir, com um desafio para cada dia. Link na bio.\n\nGuarda isto e começa hoje o teu registo."
+  },
+  {
+   "data": "2027-01-18",
+   "nome": "dias-sem-energia",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d18",
+     "t": "<span class='g'>5 coisas</span><br>para os dias<br>sem energia.",
+     "sub": "Dizem que hoje é o dia mais triste do ano."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Baixa<br><span class='g'>a fasquia.</span>",
+     "p": "Hoje o objetivo é o mínimo.<br><b>E o mínimo também conta.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Luz<br><span class='g'>natural.</span>",
+     "p": "10 minutos à janela ou na rua.<br><b>O corpo acorda com a luz.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Mexe-te<br><span class='g'>10 minutos.</span>",
+     "p": "Uma volta ao quarteirão.<br><b>Não é treino. É recomeçar o dia.</b>",
+     "foto": "d23"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Uma tarefa<br><span class='g'>pequena feita.</span>",
+     "p": "Arruma uma gaveta, responde a um email.<br><b>Uma vitória puxa a outra.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Deita-te<br><span class='g'>mais cedo.</span>",
+     "p": "Às vezes a solução não é força de vontade.<br><b>É sono.</b>"
+    },
+    {
+     "tipo": "fim",
+     "foto": "d19",
+     "t": "Dias maus<br>também passam.<br><span class='g'>Faz o mínimo<br>e deixa passar.</span>"
+    }
+   ],
+   "leg": "Há dias em que nada sai. Não é fraqueza, é ser humano.\n\nO que te ajuda nos dias sem energia?\n\nEnvia a alguém que está a precisar de um empurrão hoje."
+  },
+  {
+   "data": "2027-01-20",
+   "nome": "casa-com-foco",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d20",
+     "t": "<span class='g'>5 mudanças</span><br>em casa que<br>te dão foco.",
+     "sub": "O ambiente ganha à força de vontade."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Secretária<br><span class='g'>vazia.</span>",
+     "p": "Só o que precisas para a tarefa de hoje.<br><b>O resto vai para a gaveta.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Telemóvel<br><span class='g'>noutra divisão.</span>",
+     "p": "Longe da vista, longe da mão.<br><b>Resulta melhor do que qualquer app.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "O livro<br><span class='g'>à vista.</span>",
+     "p": "Na almofada ou na mesa.<br><b>O que está à mão é o que usas.</b>",
+     "foto": "d21"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Ténis<br><span class='g'>à porta.</span>",
+     "p": "Prontos para sair.<br><b>Menos um passo entre ti e o treino.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Comando<br><span class='g'>na gaveta.</span>",
+     "p": "Se der trabalho ligar a televisão,<br><b>ligas menos vezes.</b>"
+    },
+    {
+     "tipo": "fim",
+     "foto": "d22",
+     "t": "Muda o<br>ambiente.<br><span class='g'>O resto<br>vem atrás.</span>"
+    }
+   ],
+   "leg": "Não tens de lutar contra as distrações o dia todo. Tira-as do caminho uma vez.\n\nQual destas vais fazer hoje?\n\nGuarda e envia a quem trabalha a partir de casa."
+  },
+  {
+   "data": "2027-01-22",
+   "nome": "desafios-do-guia",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d04",
+     "t": "<span class='g'>3 desafios</span><br>que podes<br>começar hoje.",
+     "sub": "Tirados do guia 30 Dias de Foco. Grátis."
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Notificações<br><span class='g'>a zero.</span>",
+     "p": "Desliga tudo, exceto chamadas e mensagens de pessoas reais.<br><b>Vais tu lá quando decidires.</b>",
+     "label": "DIA"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Telemóvel<br><span class='g'>fora do quarto.</span>",
+     "p": "Carrega noutra divisão. Despertador simples ao lado da cama.<br><b>A partir de hoje.</b>",
+     "label": "DIA",
+     "foto": "j01"
+    },
+    {
+     "tipo": "item",
+     "n": "15",
+     "t": "A tarefa<br><span class='g'>mais importante.</span>",
+     "p": "Escolhe UMA antes de começar o dia.<br><b>Faz antes de abrir email e mensagens.</b>",
+     "label": "DIA"
+    },
+    {
+     "tipo": "guia",
+     "t": "São<br><span class='g'>30 dias</span><br>assim.",
+     "p": "Um desafio por dia, 4 semanas, registo e plano semanal.<br><b>PDF para imprimir.</b>",
+     "cta": "Guia 30 Dias de Foco: 19,97 €<br><span class='g'>Link na bio.</span>"
+    }
+   ],
+   "leg": "Três dias do guia, de graça. Experimenta esta semana e vê a diferença.\n\nSe gostares, os outros 27 estão no guia 30 Dias de Foco: um desafio por dia, registo dos 30 dias e plano semanal. 19,97 €, link na bio.\n\nGuarda para fazeres os três esta semana."
+  },
+  {
+   "data": "2027-01-25",
+   "nome": "desistir-em-fevereiro",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d25",
+     "t": "<span class='g'>5 sinais</span><br>de que vais<br>desistir em<br>fevereiro.",
+     "sub": "E o que fazer em cada um."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Só pensas<br><span class='g'>no fim.</span>",
+     "p": "Contas os dias até \"acabar\".<br><b>Põe o foco no dia de hoje.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Estás a<br><span class='g'>fazer tudo.</span>",
+     "p": "O cansaço acumula.<br><b>Corta para metade e mantém.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Já não sabes<br><span class='g'>porque começaste.</span>",
+     "p": "Escreve o teu porquê numa frase.<br><b>E põe-no à vista.</b>",
+     "foto": "d26"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Falhaste e<br><span class='g'>não voltaste.</span>",
+     "p": "Já lá vão uns dias sem nada.<br><b>Volta hoje, com a versão mínima.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Estás<br><span class='g'>sozinho nisto.</span>",
+     "p": "Ninguém sabe do teu objetivo.<br><b>Conta a uma pessoa. Pesa mais.</b>"
+    },
+    {
+     "tipo": "fim",
+     "foto": "d27",
+     "t": "Fevereiro<br>não é o fim.<br><span class='g'>É onde se vê<br>quem continua.</span>"
+    }
+   ],
+   "leg": "A maioria não desiste por falta de força. Desiste porque o plano era grande demais para a vida real.\n\nQual destes sinais já estás a sentir?\n\nEnvia a quem começou o ano contigo."
+  },
+  {
+   "data": "2027-01-27",
+   "nome": "revisao-de-janeiro",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d29",
+     "t": "Revisão de<br>janeiro em<br><span class='g'>10 minutos.</span>",
+     "sub": "Pega num papel. Três colunas."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "O que<br><span class='g'>manténs.</span>",
+     "p": "O que resultou e te fez bem?<br><b>Fica para fevereiro.</b>",
+     "label": "COLUNA"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "O que<br><span class='g'>ajustas.</span>",
+     "p": "Boa ideia, mas grande demais?<br><b>Faz uma versão mais pequena.</b>",
+     "label": "COLUNA"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "O que<br><span class='g'>cortas.</span>",
+     "p": "O que te cansou e não te deu nada?<br><b>Deixa ir, sem culpa.</b>",
+     "label": "COLUNA",
+     "foto": "d02"
+    },
+    {
+     "tipo": "item",
+     "n": "+",
+     "t": "Uma<br><span class='g'>vitória.</span>",
+     "p": "Escreve uma coisa de que te orgulhas este mês.<br><b>Por mais pequena que seja.</b>",
+     "label": "NO FIM"
+    },
+    {
+     "tipo": "fim",
+     "foto": "d30",
+     "t": "Não é sobre<br>um janeiro<br>perfeito.<br><span class='g'>É sobre um<br>fevereiro melhor.</span>"
+    }
+   ],
+   "leg": "Dez minutos de revisão poupam-te um fevereiro inteiro a repetir os mesmos erros.\n\nO que vais manter de janeiro? Escreve aqui.\n\nGuarda para o fim de semana."
+  },
+  {
+   "data": "2027-01-29",
+   "nome": "plano-fevereiro",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "d31",
+     "t": "Plano para<br><span class='g'>fevereiro.</span>",
+     "sub": "Uma meta. Um hábito. Uma regra."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Uma só<br><span class='g'>para o mês.</span>",
+     "p": "Concreta e possível em 28 dias.<br><b>Ex.: ler 2 livros.</b>",
+     "label": "META"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Um hábito<br><span class='g'>diário.</span>",
+     "p": "O que te leva à meta.<br><b>Ex.: 15 páginas por dia.</b>",
+     "label": "HÁBITO"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Uma regra<br><span class='g'>que te protege.</span>",
+     "p": "Uma coisa que não fazes.<br><b>Ex.: telemóvel fora do quarto.</b>",
+     "label": "REGRA",
+     "foto": "d10"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Ao domingo,<br><span class='g'>10 minutos.</span>",
+     "p": "Cumpriste? Ajusta.<br><b>Quatro domingos, quatro ajustes.</b>",
+     "label": "REVISÃO"
+    },
+    {
+     "tipo": "guia",
+     "t": "Preferes<br>um plano<br><span class='g'>já feito?</span>",
+     "p": "O guia 30 Dias de Foco dá-te um desafio por dia.<br><b>Começa a 1 de fevereiro.</b>",
+     "cta": "Guia 30 Dias de Foco: 19,97 €<br><span class='g'>Link na bio.</span>"
+    }
+   ],
+   "leg": "Fevereiro tem 28 dias. Chega para mudar muita coisa, se tiveres um plano simples.\n\nSe preferires um plano já feito, o guia 30 Dias de Foco dá-te um desafio por dia, registo e plano semanal. Começa a 1 de fevereiro. 19,97 €, link na bio.\n\nQual é a tua meta para fevereiro?"
+  }
+ ],
+ "hashtags_reel": "#menteemfoco #foco #disciplina #mentalidade #motivacao #frasedodia #desenvolvimentopessoal",
+ "hashtags_carrossel": "#menteemfoco #foco #disciplina #habitos #mentalidade #produtividade #motivacao #crescimentopessoal"
+}
