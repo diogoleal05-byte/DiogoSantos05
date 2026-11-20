@@ -49,8 +49,8 @@ function slide(s, i, n) {
       <div style="height:70px"></div>
       <div class="tag v">VERDADE</div><div class="p" style="font-size:54px">${s.v}</div></div></div>`, s.foto);
   if (s.tipo === 'guia') return page(`${D}<div style="position:absolute;top:110px;left:0;right:0">${LOGO}</div>
-    <div class="h" style="position:absolute;left:80px;top:290px;width:560px;font-size:110px">${s.t}</div>
-    <div class="p" style="position:absolute;left:80px;top:${290 + s.t.split('<br>').length * 114 + 40}px;width:500px;font-size:36px">${s.p}</div>
+    <div class="h" style="position:absolute;left:80px;top:290px;width:480px;font-size:96px">${s.t}</div>
+    <div class="p" style="position:absolute;left:80px;top:${290 + s.t.split("<br>").length * 100 + 40}px;width:460px;font-size:36px">${s.p}</div>
     <img src="${MOCK()}" style="position:absolute;right:-60px;top:330px;width:540px;transform:rotate(6deg)">
     <div style="position:absolute;left:80px;right:80px;top:1060px;border:2px solid ${GOLD};background:rgba(0,0,0,.6);padding:26px 34px;font:700 34px/1.4 Inter">${s.cta}</div>`);
   if (s.tipo === 'fim') return page(`${D}<div style="position:absolute;top:110px;left:0;right:0">${LOGO}</div>
