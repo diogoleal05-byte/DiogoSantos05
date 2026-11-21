@@ -1,10 +1,12 @@
 // Mente em Foco: carrosséis de promoção do guia. node gerar-promo.js <lote>
-const { chromium } = require('/home/user/pw/node_modules/playwright');
+const fs0 = require('fs');
+const { chromium } = require(fs0.existsSync('/opt/node-tools/node_modules/playwright')?'/opt/node-tools/node_modules/playwright':'/home/user/pw/node_modules/playwright');
 const fs = require('fs'), path = require('path');
 const LOTE = process.argv[2];
 const d = JSON.parse(fs.readFileSync(path.join(LOTE, 'conteudo.json')));
 const G = path.join(__dirname, 'guia-30-dias');
 const b64 = (p, m) => `data:${m};base64,` + fs.readFileSync(p).toString('base64');
+const CAMADA = !fs.existsSync(path.join(__dirname, 'fotos'));
 const FOTO = (n) => b64(path.join(__dirname, 'fotos', n + '.png'), 'image/png');
 
 const MOCK = b64(path.join(__dirname, 'mockup-livro.png'), 'image/png');
@@ -29,7 +31,7 @@ body{width:1080px;height:1350px;overflow:hidden;position:relative;background:rad
 .li i{flex:none;width:18px;height:18px;background:${GOLD};transform:rotate(45deg);margin-top:16px}
 .li i.c{width:40px;height:40px;transform:none;background:none;border:3px solid ${GOLD};margin-top:2px;position:relative}.li i.c:after{content:'';position:absolute;left:10px;top:2px;width:12px;height:22px;border:solid ${GOLD};border-width:0 5px 5px 0;transform:rotate(45deg)}`;
 const foot = `<div class="foot"><b>◇</b>@_mente_emfoco_</div>`;
-const page = (inner, foto) => `<!doctype html><html><head><meta charset="utf-8">${FONTS}<style>${css}</style></head><body>${foto ? `<div class="ph" style="background-image:url(${FOTO(foto)})"></div><div class="sh"></div>` : ''}${inner}${foot}</body></html>`;
+const page = (inner, foto) => `<!doctype html><html><head><meta charset="utf-8">${FONTS}<style>${css}</style></head><body${foto && CAMADA ? ' style="background:transparent"' : ''}>${foto ? (CAMADA ? '' : `<div class="ph" style="background-image:url(${FOTO(foto)})"></div>`) + '<div class="sh"></div>' : ''}${inner}${foot}</body></html>`;
 const dots = (i, n) => `<div class="dots">${Array.from({ length: n }, (_, k) => `<i class="${k === i ? 'on' : ''}"></i>`).join('')}</div>`;
 function slide(s, i, n) {
   const D = dots(i, n);
@@ -77,7 +79,9 @@ function slide(s, i, n) {
     for (let i = 0; i < c.slides.length; i++) {
       await p.setContent(slide(c.slides[i], i, c.slides.length), { waitUntil: 'networkidle' });
       await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(100);
-      await p.screenshot({ path: path.join(dir, `${c.nome}-${String(i + 1).padStart(2, '0')}.jpg`), type: 'jpeg', quality: 90 });
+      const sl = c.slides[i], nm = `${c.nome}-${String(i + 1).padStart(2, '0')}`;
+      if (sl.foto && CAMADA) await p.screenshot({ path: path.join(dir, `${nm}__${sl.foto}.png`), omitBackground: true });
+      else await p.screenshot({ path: path.join(dir, `${nm}.jpg`), type: 'jpeg', quality: 90 });
     }
     console.log('ok', c.nome);
   }
