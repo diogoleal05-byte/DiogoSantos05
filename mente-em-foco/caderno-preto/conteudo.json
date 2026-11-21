@@ -1,0 +1,20 @@
+{
+ "preco": "11,97 €", "preco_depois": "19,97 €", "ate": "31/12",
+ "carrosseis": [{
+  "data": "2026-12-14", "nome": "caderno-preto",
+  "leg": "O caderno preto não é um diário. É o sítio onde escreves aquilo que andas a evitar: onde estás, onde devias estar e o que te desviou pelo caminho.\n\nA diferença entre as duas primeiras respostas é o teu plano. E de 15 em 15 dias voltas ao caderno para ver se estás a cumprir ou a arranjar desculpas.\n\nSe queres fazer isto com um plano dia a dia, o guia 30 Dias de Foco tem tudo pronto a preencher. Preço de lançamento: 11,97 € até 31/12. Depois, 19,97 €.\n\nLink na bio. Guarda este post para a noite em que pegares no caderno.",
+  "slides": [
+   {"tipo":"capa","t":"A regra do<br><span class='g'>caderno preto</span>","sub":"Toda a gente entre os 20 e os 40 anos devia conhecê-la. De preferência antes de 2027 começar.","foto":"f1"},
+   {"tipo":"item","label":"PASSO","n":"00","t":"Pega num<br>caderno.","p":"Não serve um qualquer. <b>Um caderno preto e uma caneta.</b> Desliga o telemóvel, fica sozinho 20 minutos e responde com honestidade.","foto":"f2"},
+   {"tipo":"lista","label":"PERGUNTA 01","t":"Onde estou?<br><span class='g'>Sem filtros.</span>","itens":["Como está a tua vida hoje: <b>dinheiro, saúde, cabeça?</b>","O que fazes <b>todos os dias</b>, de verdade?","O que finges que estás a fazer?","O que andas a <b>adiar</b>?"]},
+   {"tipo":"lista","label":"PERGUNTA 02","t":"Onde devia<br><span class='g'>estar?</span>","itens":["Quanto <b>devias</b> estar a ganhar?","Como devia ser a tua <b>rotina</b>?","Quem já devias ser <b>por esta altura</b>?","Que disciplina sabes que te falta?"]},
+   {"tipo":"lista","label":"PERGUNTA 03","t":"O que me desviou?<br><span class='g'>Sem culpar ninguém.</span>","itens":["Que escolhas te trouxeram <b>até aqui</b>?","Que <b>padrões</b> repetes?","Onde é que te <b>sabotas</b>?","O que deixaste de fazer?"]},
+   {"tipo":"item","label":"ATENÇÃO","n":"!","t":"É suposto<br>doer.","p":"Ninguém muda aquilo que não tem coragem de escrever. <b>A distância entre a resposta 1 e a resposta 2 é o teu plano.</b>"},
+   {"tipo":"item","label":"AGORA","n":"30","t":"30 dias para<br>fechar a distância.","p":"Não é um plano de 3 meses que abandonas em fevereiro. <b>É um desafio por dia, de 10 a 30 minutos.</b>","foto":"f4"},
+   {"tipo":"lista","check":true,"label":"O PLANO","t":"4 semanas.<br><span class='g'>4 mudanças.</span>","itens":["<b>Semana 1:</b> limpar as distrações","<b>Semana 2:</b> rotina e energia","<b>Semana 3:</b> trabalho profundo","<b>Semana 4:</b> mentalidade e consistência"]},
+   {"tipo":"item","label":"A REGRA","n":"15","t":"De 15 em 15 dias,<br>volta ao caderno.","p":"O que me aproximou da vida que quero? <b>Onde fui fraco? O que ajusto amanhã?</b>","foto":"f3"},
+   {"tipo":"produto"},
+   {"tipo":"cta","pre":"Se leste até aqui, és da minoria que vai mesmo fazer isto.","t":"Guarda<br><span class='g'>este post.</span>","p":"E pega no caderno esta noite. <b>O guia 30 Dias de Foco tem o plano dia a dia pronto a preencher.</b>","btn":"LINK NA BIO →","foto":"f5"}
+  ]
+ }]
+}
