@@ -1,0 +1,13 @@
+# Alojamento no Netlify: o site continua na pasta docs/,
+# as funções (código SMS e estimativa) ficam em netlify/functions/.
+[build]
+  publish = "docs"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
