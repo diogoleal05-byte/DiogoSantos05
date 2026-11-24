@@ -1,0 +1,332 @@
+{
+ "preco": "8,97 €",
+ "preco_depois": "11,97 €",
+ "ate": "31/12",
+ "carrosseis": [
+  {
+   "data": "2026-11-24",
+   "nome": "lancamento-guia",
+   "leg": "Ter foco não é um talento. É um treino. Por isso criei o 30 Dias de Foco: um guia prático com um desafio por dia, de 10 a 30 minutos. Primeiro limpas as distrações, depois ganhas energia, depois treinas a concentração e, no fim, crias a mentalidade para que isto fique.\n\nPreço de lançamento: 8,97 € até 31/12. Depois passa a 11,97 €.\n\nLink na bio.",
+   "slides": [
+    {
+     "tipo": "capa",
+     "t": "30 dias<br><span class='g'>de foco</span>",
+     "sub": "O novo guia da Mente em Foco. Já disponível.",
+     "mockup": true
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "label": "O PROBLEMA",
+     "t": "Não é falta de<br>força de vontade.",
+     "p": "Vives rodeado de coisas desenhadas para te roubar a atenção. <b>Lutar contra isso só com vontade não chega.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "label": "A SOLUÇÃO",
+     "t": "Um desafio<br>por dia.",
+     "p": "30 tarefas simples, <b>de 10 a 30 minutos</b>. Cada dia prepara o seguinte. Não é para ler, é para fazer.",
+     "foto": "p1"
+    },
+    {
+     "tipo": "lista",
+     "label": "O QUE TEM",
+     "t": "4 semanas.<br><span class='g'>4 mudanças.</span>",
+     "itens": [
+      "<b>Semana 1:</b> limpar as distrações",
+      "<b>Semana 2:</b> rotina e energia",
+      "<b>Semana 3:</b> trabalho profundo",
+      "<b>Semana 4:</b> mentalidade e consistência",
+      "<b>Dias 29 e 30:</b> o teu plano para 90 dias"
+     ]
+    },
+    {
+     "tipo": "pagina",
+     "label": "E AINDA",
+     "t": "Folhas para imprimir",
+     "p": "Registo dos 30 dias, plano semanal, rituais da manhã e da noite e a folha dos teus 3 objetivos.",
+     "pag": [
+      "p43",
+      "p46"
+     ]
+    },
+    {
+     "tipo": "produto"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-26",
+   "nome": "dia-1-gratis",
+   "leg": "Este é o Dia 1 do guia 30 Dias de Foco. Faz hoje, é grátis.\n\nVai às definições do telemóvel, vê o teu tempo de ecrã e escreve aqui o número (sem vergonha, ninguém julga).\n\nSe quiseres os outros 29 dias, o guia está na bio por 8,97 € até 31/12.",
+   "slides": [
+    {
+     "tipo": "capa",
+     "t": "Experimenta<br><span class='g'>o dia 1.</span><br>É grátis.",
+     "sub": "O primeiro desafio do guia 30 Dias de Foco.",
+     "foto": "p1"
+    },
+    {
+     "tipo": "pagina",
+     "label": "DIA 01",
+     "t": "Mede o ponto de partida",
+     "p": "Não consegues melhorar o que não vês. Hoje não mudas nada: só observas.",
+     "pag": [
+      "p09"
+     ]
+    },
+    {
+     "tipo": "lista",
+     "label": "A TAREFA",
+     "t": "Faz isto<br><span class='g'>hoje.</span>",
+     "itens": [
+      "Abre o <b>tempo de ecrã</b> nas definições do telemóvel",
+      "Escreve a <b>média diária</b> da última semana",
+      "Anota as <b>3 apps</b> onde passas mais tempo",
+      "Conta quantas vezes <b>desbloqueias</b> o telemóvel"
+     ],
+     "check": true
+    },
+    {
+     "tipo": "item",
+     "n": "?",
+     "label": "À NOITE",
+     "t": "Se recuperasses<br>metade desse tempo,",
+     "p": "<b>o que farias com ele?</b> Escreve a resposta. É aqui que começa a mudança."
+    },
+    {
+     "tipo": "produto",
+     "titulo": "Faltam<br><span class='g'>29 dias.</span>"
+    }
+   ]
+  },
+  {
+   "data": "2026-12-03",
+   "nome": "5-regras-desafio",
+   "leg": "A maioria dos desafios falha na primeira semana. Estas 5 regras ajudam-te a não desistir, seja qual for o objetivo.\n\nQual destas te falta mais? Diz o número.\n\nSão as regras do guia 30 Dias de Foco (link na bio, 8,97 € até 31/12).",
+   "slides": [
+    {
+     "tipo": "capa",
+     "t": "5 regras<br>para não<br><span class='g'>desistires.</span>",
+     "sub": "Funcionam para qualquer desafio ou hábito novo.",
+     "foto": "p2"
+    },
+    {
+     "tipo": "item",
+     "n": "1",
+     "label": "REGRA",
+     "t": "Um dia<br>de cada vez.",
+     "p": "Não tentes mudar tudo na segunda-feira. <b>Faz só o de hoje.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "2",
+     "label": "REGRA",
+     "t": "Nunca falhes<br>dois dias seguidos.",
+     "p": "Falhar um dia acontece. Falhar dois é um novo hábito. <b>Se falhares, continuas amanhã.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "3",
+     "label": "REGRA",
+     "t": "Feito é melhor<br>que perfeito.",
+     "p": "Só tens 5 minutos? <b>Faz a versão de 5 minutos.</b> Conta na mesma."
+    },
+    {
+     "tipo": "item",
+     "n": "4",
+     "label": "REGRA",
+     "t": "Escreve.",
+     "p": "É ao escrever que percebes o que está a mudar. <b>Uma linha por dia chega.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "5",
+     "label": "REGRA",
+     "t": "Conta<br>a alguém.",
+     "p": "Compromissos públicos cumprem-se mais. <b>Diz a uma pessoa o que vais fazer.</b>"
+    },
+    {
+     "tipo": "produto",
+     "titulo": "Põe as regras<br><span class='g'>em prática.</span>"
+    }
+   ]
+  },
+  {
+   "data": "2026-12-10",
+   "nome": "para-quem-e",
+   "leg": "Sê honesto: quantas destas são tu?\n\nSe disseste 2 ou mais, o 30 Dias de Foco foi feito a pensar em ti. 8,97 € até 31/12, link na bio.",
+   "slides": [
+    {
+     "tipo": "capa",
+     "t": "Este guia<br><span class='g'>é para ti se...</span>",
+     "sub": "Conta quantas destas são verdade.",
+     "foto": "p0"
+    },
+    {
+     "tipo": "item",
+     "n": "1",
+     "t": "Pegas no telemóvel<br>sem saber porquê.",
+     "p": "E quando dás por ti, <b>passou meia hora.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "2",
+     "t": "Começas o dia<br>já cansado.",
+     "p": "Acordas, vês mensagens e notícias e <b>a cabeça já está cheia antes das 9h.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "3",
+     "t": "Começas muito.<br>Acabas pouco.",
+     "p": "Saltas de tarefa em tarefa e <b>ao fim do dia não sabes o que fizeste.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "4",
+     "t": "Queres um 2027<br>diferente.",
+     "p": "Mas já sabes como acabam as resoluções de ano novo. <b>Desta vez queres um plano.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "✕",
+     "label": "NÃO É PARA TI SE",
+     "t": "Procuras uma<br>fórmula mágica.",
+     "p": "Isto dá trabalho. Pouco, mas todos os dias. <b>É por isso que funciona.</b>"
+    },
+    {
+     "tipo": "produto"
+    }
+   ]
+  },
+  {
+   "data": "2026-12-17",
+   "nome": "presente-natal",
+   "leg": "Ainda à procura de um presente para alguém que anda a dizer que \"este ano é que vai ser\"?\n\nO 30 Dias de Foco é um PDF: compras, recebes no email e envias à pessoa, ou imprimes e ofereces em papel com um laço.\n\n8,97 € até 31/12. Link na bio.",
+   "slides": [
+    {
+     "tipo": "capa",
+     "t": "Um presente<br>que muda<br><span class='g'>o ano.</span>",
+     "sub": "Por menos de 9 €.",
+     "foto": "p3"
+    },
+    {
+     "tipo": "lista",
+     "label": "PORQUE FUNCIONA",
+     "t": "Não é mais<br><span class='g'>uma coisa.</span>",
+     "itens": [
+      "Não ocupa espaço nem se esquece na gaveta",
+      "Dá para começar a <b>1 de janeiro</b>",
+      "<b>30 dias</b> de desafios simples",
+      "Folhas para imprimir e pôr à vista"
+     ]
+    },
+    {
+     "tipo": "lista",
+     "label": "COMO OFERECER",
+     "t": "Em 2<br><span class='g'>minutos.</span>",
+     "itens": [
+      "Compras pelo link na bio",
+      "Recebes o PDF no teu email",
+      "Envias à pessoa ou imprimes e ofereces em papel"
+     ],
+     "check": true
+    },
+    {
+     "tipo": "produto",
+     "titulo": "Oferece<br><span class='g'>foco.</span>"
+    }
+   ]
+  },
+  {
+   "data": "2026-12-29",
+   "nome": "ultimos-dias-guia",
+   "leg": "Daqui a 3 dias, toda a gente vai prometer mudar. Poucos vão ter um plano.\n\nO 30 Dias de Foco dá-te o plano: uma tarefa por dia, a começar a 1 de janeiro.\n\nÚltimos dias a 8,97 €. A 1 de janeiro passa a 11,97 €. Link na bio.",
+   "slides": [
+    {
+     "tipo": "capa",
+     "t": "1 de janeiro<br><span class='g'>está aí.</span>",
+     "sub": "Vais começar com uma promessa ou com um plano?",
+     "foto": "p4"
+    },
+    {
+     "tipo": "item",
+     "n": "1",
+     "label": "SEMANA",
+     "t": "Limpa as<br>distrações.",
+     "p": "Notificações, ecrã inicial, telemóvel fora do quarto. <b>O ambiente primeiro.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "2",
+     "label": "SEMANA",
+     "t": "Ganha<br>energia.",
+     "p": "Hora fixa para acordar, luz, movimento e <b>um ritual para fechar o dia.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "3",
+     "label": "SEMANA",
+     "t": "Treina<br>o foco.",
+     "p": "Blocos de 25 e depois 50 minutos. <b>Uma coisa de cada vez.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "4",
+     "label": "SEMANA",
+     "t": "Muda a<br>mentalidade.",
+     "p": "Disciplina em vez de motivação. <b>E um plano para os 90 dias seguintes.</b>"
+    },
+    {
+     "tipo": "produto",
+     "titulo": "Últimos dias<br><span class='g'>a 8,97 €.</span>"
+    }
+   ]
+  }
+ ],
+ "reels": [
+  {
+   "data": "2026-11-23",
+   "tipo": "lancamento",
+   "foto": "p1",
+   "leg": "Está cá fora. 30 Dias de Foco: um desafio por dia para recuperares a concentração e começares 2027 com disciplina.\n\n47 páginas, folhas para imprimir e um plano para 90 dias.\n\nPreço de lançamento: 8,97 € até 31/12 (depois 11,97 €). Link na bio."
+  },
+  {
+   "data": "2026-11-28",
+   "foto": "p0",
+   "l1": "Não é falta de<br>força de vontade.",
+   "l2": "É excesso<br>de distrações.",
+   "leg": "Ninguém tem foco com 80 notificações por dia. O primeiro passo não é esforçares-te mais, é limpares o caminho.\n\nÉ por aí que começa o 30 Dias de Foco. Link na bio, 8,97 € até 31/12."
+  },
+  {
+   "data": "2026-12-05",
+   "foto": "p2",
+   "l1": "Daqui a 30 dias<br>vais desejar",
+   "l2": "ter começado<br>hoje.",
+   "leg": "Daqui a 30 dias vais estar noutro sítio. A questão é se escolheste qual.\n\n30 Dias de Foco: um desafio por dia. Link na bio, 8,97 € até 31/12."
+  },
+  {
+   "data": "2026-12-12",
+   "foto": "p3",
+   "l1": "O melhor presente",
+   "l2": "é um ano<br>com foco.",
+   "leg": "Para quem anda a dizer \"este ano é que vai ser\". Ou para ti.\n\n30 Dias de Foco, por menos de 9 €. Link na bio."
+  },
+  {
+   "data": "2026-12-22",
+   "foto": "p4",
+   "l1": "Não esperes<br>por janeiro",
+   "l2": "para começares<br>a mudar.",
+   "leg": "Janeiro não tem nada de mágico. O que muda é o dia em que decides.\n\n30 Dias de Foco: começa quando quiseres. 8,97 € só até 31/12. Link na bio."
+  },
+  {
+   "data": "2026-12-31",
+   "foto": "p5",
+   "l1": "Último dia<br>de 2026.",
+   "l2": "Amanhã<br>começa tudo.",
+   "fim": "SÓ HOJE A 8,97 €",
+   "leg": "Último dia do ano e último dia a 8,97 €. Amanhã o 30 Dias de Foco passa a 11,97 €.\n\nSe 2027 é o ano, começa com um plano. Link na bio.\n\nBom ano. Obrigado por estares aqui."
+  }
+ ]
+}
