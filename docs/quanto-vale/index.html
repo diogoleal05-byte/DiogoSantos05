@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quanto vale a sua casa? · Diogo Santos</title>
+<meta name="description" content="Responda a algumas perguntas sobre a sua casa e veja um intervalo de valor com base nas vendas reais do seu concelho (INE). Almeirim, Ribatejo, Lisboa e Sintra.">
+<meta property="og:title" content="Quanto vale a sua casa?">
+<meta property="og:description" content="Um intervalo de valor em 2 minutos, com base nas vendas reais do seu concelho.">
+<meta property="og:image" content="../img/diogo.jpg">
+<link rel="icon" href="../img/logo-dourado.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{
+  --navy:#1e293f; --navy-2:#273554; --bronze:#bc8345; --bronze-claro:#d9a66e; --bronze-escuro:#a06d34;
+  --fundo:#f2f4f7; --papel:#fff; --tinta:#1e293f; --tinta-2:#4f5a6e; --linha:#dde2ea; --campo:#c9d0db;
+  --serif:"Playfair Display",Georgia,"Times New Roman",serif;
+  --sans:"Inter",-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--fundo);color:var(--tinta);font:400 17px/1.55 var(--sans);-webkit-font-smoothing:antialiased;min-height:100vh;display:flex;flex-direction:column}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--bronze);outline-offset:3px}
+h1,h2{font-family:var(--serif);font-weight:500;line-height:1.1;margin:0;letter-spacing:-.01em;text-wrap:balance}
+h1 em,h2 em{font-style:italic;color:var(--bronze)}
+p{margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+header{background:var(--navy);color:#fff}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+header img{height:38px;width:auto}
+header a.voltar{font:500 14px/1 var(--sans);color:rgba(255,255,255,.8);text-decoration:none}
+header a.voltar:hover{color:#fff}
+
+.topo{background:var(--navy);color:#fff;padding:clamp(28px,5vw,56px) 0 clamp(90px,10vw,120px)}
+.topo .wrap{display:grid;gap:14px;max-width:760px}
+.eb{font:600 12px/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--bronze-claro)}
+.topo h1{font-size:clamp(36px,5.6vw,60px)}
+.topo p.lead{color:rgba(255,255,255,.75);font-size:clamp(16px,1.6vw,18px);max-width:58ch}
+
+main{flex:1}
+.cartao{background:var(--papel);max-width:760px;margin:clamp(-80px,-8vw,-64px) auto 56px;box-shadow:0 24px 48px -28px rgba(30,41,63,.35);border-top:3px solid var(--bronze)}
+.progresso{height:4px;background:var(--linha)}
+.progresso i{display:block;height:100%;width:0;background:var(--bronze);transition:width .35s ease}
+.passo{padding:clamp(22px,4.5vw,44px);display:none;gap:22px}
+.passo.ativo{display:grid}
+.passo .num{font:600 12px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--tinta-2)}
+.passo h2{font-size:clamp(26px,3.4vw,34px)}
+.passo .ajuda{color:var(--tinta-2);font-size:15px}
+
+label,.rotulo{display:grid;gap:7px;font:600 14px/1.25 var(--sans)}
+label small,.rotulo small{font-weight:400;color:var(--tinta-2)}
+input[type=text],input[type=tel],input[type=email],input[type=number],select{font:400 16px/1.4 var(--sans);color:var(--tinta);padding:13px 14px;border:1px solid var(--campo);background:#fff;border-radius:3px;width:100%}
+input:focus,select:focus{outline:2px solid var(--bronze);outline-offset:0;border-color:var(--bronze)}
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:540px){.duas{grid-template-columns:1fr}}
+
+/* escolhas em cartão */
+.opcoes{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.opcoes.pequenas{grid-template-columns:repeat(auto-fit,minmax(64px,1fr))}
+.op{position:relative}
+.op input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.op span{display:grid;gap:4px;padding:14px;border:1px solid var(--campo);border-radius:3px;font:500 15px/1.3 var(--sans);text-align:center;transition:border-color .15s,background .15s;height:100%;align-content:center}
+.op span small{font-weight:400;font-size:13px;color:var(--tinta-2)}
+.op input:checked+span{border-color:var(--navy);background:var(--navy);color:#fff}
+.op input:checked+span small{color:rgba(255,255,255,.7)}
+.op input:focus-visible+span{outline:2px solid var(--bronze);outline-offset:2px}
+.op:hover span{border-color:var(--navy)}
+
+.check{display:grid;grid-template-columns:22px 1fr;gap:12px;align-items:start;font-weight:400;font-size:15px;line-height:1.45;color:var(--tinta-2)}
+.check input{width:20px;height:20px;margin:1px 0 0;accent-color:var(--navy)}
+.check a{color:var(--navy);font-weight:500}
+
+.acoes{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-top:6px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 24px;border-radius:3px;font:600 15px/1 var(--sans);text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-p{background:var(--bronze);color:#fff}
+.btn-p:hover{background:var(--bronze-escuro)}
+.btn-p[disabled]{opacity:.6;cursor:wait}
+.btn-s{background:none;color:var(--tinta-2);padding-inline:4px}
+.btn-s:hover{color:var(--tinta)}
+.btn-n{background:var(--navy);color:#fff}
+.btn-n:hover{background:var(--navy-2)}
+.erro{color:#a33a2a;font-size:14.5px}
+.erro:empty{display:none}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+/* código */
+.codigo{font:600 30px/1 var(--sans)!important;letter-spacing:.5em;text-align:center;padding:16px 10px 16px 24px!important;max-width:280px;font-variant-numeric:tabular-nums}
+.reenviar{font-size:14.5px;color:var(--tinta-2)}
+.reenviar button{background:none;border:0;padding:0;font:inherit;color:var(--navy);font-weight:600;text-decoration:underline;cursor:pointer}
+.reenviar button[disabled]{color:var(--tinta-2);text-decoration:none;cursor:default}
+
+/* resultado */
+.res-topo{background:var(--navy);color:#fff;margin:calc(-1 * clamp(22px,4.5vw,44px));margin-bottom:0;padding:clamp(26px,4.5vw,44px);display:grid;gap:10px}
+.res-topo .eb{color:var(--bronze-claro)}
+.res-topo .intervalo{font:500 clamp(34px,6vw,56px)/1.05 var(--serif);font-variant-numeric:lining-nums;color:#fff}
+.intervalo span{color:var(--bronze-claro);font-style:italic;font-size:.6em;padding:0 .2em}
+.res-topo p{color:rgba(255,255,255,.72);font-size:15px}
+.dados{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--linha)}
+.dados div{padding:16px;border-left:1px solid var(--linha);display:grid;gap:6px}
+.dados div:first-child{border-left:0}
+.dados b{font:500 24px/1 var(--serif);font-variant-numeric:lining-nums;color:var(--navy)}
+.dados small{font-size:13px;color:var(--tinta-2);line-height:1.35}
+@media (max-width:540px){.dados{grid-template-columns:1fr}.dados div{border-left:0;border-top:1px solid var(--linha)}.dados div:first-child{border-top:0}}
+.porque{display:grid;gap:12px}
+.porque p{padding-left:22px;position:relative;color:var(--tinta-2);font-size:15.5px}
+.porque p::before{content:"";position:absolute;left:0;top:.72em;width:10px;height:1px;background:var(--bronze)}
+.diogo{display:grid;grid-template-columns:72px 1fr;gap:16px;align-items:center;background:var(--fundo);padding:18px}
+.diogo img{width:72px;height:72px;border-radius:50%;object-fit:cover;object-position:50% 10%}
+.diogo p{font-size:15.5px;color:var(--tinta-2)}
+.diogo p b{color:var(--tinta)}
+.fonte{font-size:12.5px;color:var(--tinta-2);border-top:1px solid var(--linha);padding-top:14px}
+
+footer{background:#161f31;color:rgba(255,255,255,.55);padding:28px 0;font-size:12.5px;line-height:1.55}
+footer .wrap{display:grid;gap:8px}
+footer a{color:rgba(255,255,255,.8)}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.4 5.1 5.2-1.36A9.9 9.9 0 1 0 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.1.81.83-3.02-.2-.31a8.2 8.2 0 1 1 6.95 3.85Zm4.5-6.14c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.55.12-.16.25-.63.8-.78.97-.14.16-.29.18-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.7-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.31c-.23.25-.86.84-.86 2.05 0 1.2.88 2.37 1 2.54.12.16 1.74 2.65 4.2 3.72.59.25 1.05.4 1.4.52.6.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.2-.57.2-1.07.14-1.17-.06-.1-.22-.17-.47-.29Z"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap">
+    <a href="../" aria-label="Diogo Santos, início"><img src="../img/logo-branco.png" alt="Diogo Santos" width="51" height="38"></a>
+    <a class="voltar" href="../">Voltar ao site</a>
+  </div>
+</header>
+
+<section class="topo">
+  <div class="wrap">
+    <p class="eb">Almeirim · Ribatejo · Lisboa · Sintra</p>
+    <h1>Quanto vale a sua <em>casa?</em></h1>
+    <p class="lead">Responda a quatro perguntas. Em 2 minutos vê um intervalo de valor, calculado com as vendas reais do seu concelho.</p>
+  </div>
+</section>
+
+<main>
+  <div class="cartao">
+    <div class="progresso" aria-hidden="true"><i id="barra"></i></div>
+
+    <form id="calc" novalidate>
+      <!-- 1. Onde fica -->
+      <fieldset class="passo ativo" data-passo="1" style="border:0;margin:0">
+        <p class="num">1 de 4</p>
+        <h2>Onde fica a casa?</h2>
+        <label for="concelho">Concelho
+          <select id="concelho" name="concelho" required>
+            <option value="">Escolha o concelho</option>
+            <optgroup label="Ribatejo">
+              <option value="almeirim">Almeirim</option>
+              <option value="alpiarca">Alpiarça</option>
+              <option value="santarem">Santarém</option>
+              <option value="cartaxo">Cartaxo</option>
+              <option value="salvaterra">Salvaterra de Magos</option>
+              <option value="benavente">Benavente</option>
+              <option value="coruche">Coruche</option>
+              <option value="chamusca">Chamusca</option>
+              <option value="golega">Golegã</option>
+              <option value="rio-maior">Rio Maior</option>
+              <option value="azambuja">Azambuja</option>
+              <option value="alenquer">Alenquer</option>
+            </optgroup>
+            <optgroup label="Lisboa e Sintra">
+              <option value="lisboa">Lisboa</option>
+              <option value="sintra">Sintra</option>
+              <option value="cascais">Cascais</option>
+              <option value="oeiras">Oeiras</option>
+              <option value="amadora">Amadora</option>
+              <option value="odivelas">Odivelas</option>
+              <option value="loures">Loures</option>
+              <option value="mafra">Mafra</option>
+              <option value="vila-franca">Vila Franca de Xira</option>
+            </optgroup>
+            <option value="outro">Outro concelho</option>
+          </select>
+        </label>
+        <label for="outroConcelho" id="outro-wrap" hidden>Qual?
+          <input type="text" id="outroConcelho" name="outroConcelho" autocomplete="address-level2">
+        </label>
+        <label for="freguesia">Freguesia ou localidade <small>(opcional)</small>
+          <input type="text" id="freguesia" name="freguesia" placeholder="Ex.: Fazendas de Almeirim">
+        </label>
+        <p class="erro" role="alert"></p>
+        <div class="acoes"><span></span><button type="button" class="btn btn-p" data-seguinte>Continuar</button></div>
+      </fieldset>
+
+      <!-- 2. A casa -->
+      <fieldset class="passo" data-passo="2" style="border:0;margin:0">
+        <p class="num">2 de 4</p>
+        <h2>Como é a casa?</h2>
+        <div class="rotulo">Tipo
+          <div class="opcoes">
+            <label class="op"><input type="radio" name="tipo" value="apartamento" required><span>Apartamento</span></label>
+            <label class="op"><input type="radio" name="tipo" value="moradia"><span>Moradia</span></label>
+          </div>
+        </div>
+        <div class="rotulo">Tipologia
+          <div class="opcoes pequenas">
+            <label class="op"><input type="radio" name="tipologia" value="T0" required><span>T0</span></label>
+            <label class="op"><input type="radio" name="tipologia" value="T1"><span>T1</span></label>
+            <label class="op"><input type="radio" name="tipologia" value="T2"><span>T2</span></label>
+            <label class="op"><input type="radio" name="tipologia" value="T3"><span>T3</span></label>
+            <label class="op"><input type="radio" name="tipologia" value="T4"><span>T4</span></label>
+            <label class="op"><input type="radio" name="tipologia" value="T5+"><span>T5+</span></label>
+          </div>
+        </div>
+        <div class="duas">
+          <label for="area">Área útil em m² <small>Está na caderneta predial.</small>
+            <input type="number" id="area" name="area" inputmode="numeric" min="20" max="2000" placeholder="Ex.: 120" required>
+          </label>
+          <label for="andar" id="andar-wrap" hidden>Andar <small>0 para rés-do-chão.</small>
+            <input type="number" id="andar" name="andar" inputmode="numeric" min="0" max="40" placeholder="Ex.: 2">
+          </label>
+        </div>
+        <p class="erro" role="alert"></p>
+        <div class="acoes"><button type="button" class="btn btn-s" data-anterior>← Voltar</button><button type="button" class="btn btn-p" data-seguinte>Continuar</button></div>
+      </fieldset>
+
+      <!-- 3. Estado e extras -->
+      <fieldset class="passo" data-passo="3" style="border:0;margin:0">
+        <p class="num">3 de 4</p>
+        <h2>Em que estado está?</h2>
+        <div class="rotulo">Estado
+          <div class="opcoes">
+            <label class="op"><input type="radio" name="estado" value="novo" required><span>Nova<small>até 5 anos</small></span></label>
+            <label class="op"><input type="radio" name="estado" value="renovado"><span>Renovada<small>obras recentes</small></span></label>
+            <label class="op"><input type="radio" name="estado" value="bom"><span>Bom estado<small>pronta a habitar</small></span></label>
+            <label class="op"><input type="radio" name="estado" value="obras_ligeiras"><span>Obras ligeiras<small>pintura, cozinha</small></span></label>
+            <label class="op"><input type="radio" name="estado" value="obras_profundas"><span>Obras profundas<small>telhado, canalização</small></span></label>
+          </div>
+        </div>
+        <div class="rotulo">Tem algum destes? <small>Escolha os que se aplicam.</small>
+          <div class="opcoes">
+            <label class="op"><input type="checkbox" name="extras" value="garagem"><span>Garagem</span></label>
+            <label class="op"><input type="checkbox" name="extras" value="exterior"><span>Varanda, terraço ou quintal</span></label>
+            <label class="op" data-so="moradia"><input type="checkbox" name="extras" value="piscina"><span>Piscina</span></label>
+            <label class="op" data-so="apartamento"><input type="checkbox" name="extras" value="sem_elevador"><span>Prédio sem elevador</span></label>
+          </div>
+        </div>
+        <div class="rotulo">Quando pensa vender?
+          <div class="opcoes">
+            <label class="op"><input type="radio" name="prazo" value="ja" required><span>Nos próximos 3 meses</span></label>
+            <label class="op"><input type="radio" name="prazo" value="meses"><span>Daqui a 3 a 12 meses</span></label>
+            <label class="op"><input type="radio" name="prazo" value="curiosidade"><span>Só quero saber o valor</span></label>
+          </div>
+        </div>
+        <p class="erro" role="alert"></p>
+        <div class="acoes"><button type="button" class="btn btn-s" data-anterior>← Voltar</button><button type="button" class="btn btn-p" data-seguinte>Continuar</button></div>
+      </fieldset>
+
+      <!-- 4. Contacto -->
+      <fieldset class="passo" data-passo="4" style="border:0;margin:0">
+        <p class="num">4 de 4</p>
+        <h2>Para onde envio o código?</h2>
+        <p class="ajuda">Envio um código por SMS para confirmar o número. Assim sei que é uma pessoa real e não um robô.</p>
+        <label for="nome">Nome
+          <input type="text" id="nome" name="nome" autocomplete="name" required>
+        </label>
+        <div class="duas">
+          <label for="telemovel">Telemóvel
+            <input type="tel" id="telemovel" name="telemovel" autocomplete="tel-national" inputmode="tel" placeholder="9XX XXX XXX" required>
+          </label>
+          <label for="email">Email <small>(opcional)</small>
+            <input type="email" id="email" name="email" autocomplete="email">
+          </label>
+        </div>
+        <label class="hp" aria-hidden="true">Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+        <label class="check"><input type="checkbox" id="consentimento" name="consentimento" required>
+          <span>Aceito que o Diogo Santos use estes dados para me enviar esta estimativa e me contactar sobre ela. Li a <a href="../privacidade/" target="_blank">política de privacidade</a>.</span>
+        </label>
+        <p class="erro" role="alert"></p>
+        <div class="acoes"><button type="button" class="btn btn-s" data-anterior>← Voltar</button><button type="button" class="btn btn-p" id="enviar">Enviar código por SMS</button></div>
+      </fieldset>
+
+      <!-- 5. Código -->
+      <fieldset class="passo" data-passo="5" style="border:0;margin:0">
+        <p class="num">Confirmação</p>
+        <h2>Escreva o código que recebeu.</h2>
+        <p class="ajuda">Enviei um SMS com 6 dígitos para <b id="tel-mostra"></b>. Pode demorar até um minuto.</p>
+        <label for="codigo">Código
+          <input type="text" id="codigo" class="codigo" name="codigo" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="\d{6}">
+        </label>
+        <p class="reenviar"><button type="button" id="reenviar" disabled>Reenviar código</button> <span id="espera"></span> · <button type="button" id="mudar">Mudar número</button></p>
+        <p class="erro" role="alert"></p>
+        <div class="acoes"><span></span><button type="button" class="btn btn-p" id="confirmar">Ver o valor</button></div>
+      </fieldset>
+
+      <!-- 6. Resultado -->
+      <section class="passo" data-passo="6" aria-live="polite">
+        <div class="res-topo">
+          <p class="eb" id="res-local"></p>
+          <p class="intervalo" id="res-intervalo"></p>
+          <p id="res-sub"></p>
+        </div>
+        <div class="dados" id="res-dados"></div>
+        <div class="porque">
+          <p>Este valor parte da mediana do que se vendeu no concelho nos últimos 12 meses, ajustada à área, ao estado e aos extras da sua casa.</p>
+          <p>Não vê a rua, a exposição solar, a vista nem o estado real da cozinha e das casas de banho. É aí que duas casas iguais no papel valem coisas diferentes.</p>
+          <p>Para um preço em que possa confiar, vejo a casa e comparo com vendas reais da sua zona.</p>
+        </div>
+        <div class="diogo">
+          <img src="../img/diogo.jpg" alt="Diogo Santos" width="72" height="72">
+          <p><b>Recebi os seus dados.</b> Ligo-lhe ou envio mensagem no próximo dia útil. Se preferir, fale já comigo.</p>
+        </div>
+        <div class="acoes" style="justify-content:flex-start">
+          <a class="btn btn-p" id="res-wa" href="https://wa.me/351916945324" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Marcar visita pelo WhatsApp</a>
+          <a class="btn btn-s" href="../">Voltar ao site</a>
+        </div>
+        <p class="fonte" id="res-fonte"></p>
+      </section>
+    </form>
+  </div>
+</main>
+
+<!-- Formulário escondido: só existe para o Netlify o reconhecer.
+     Os envios são feitos pela função verificar-codigo, depois de o código SMS ser confirmado. -->
+<form name="estimativas" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input name="bot-field"><input name="nome"><input name="telemovel"><input name="email">
+  <input name="concelho"><input name="freguesia"><input name="tipo"><input name="tipologia">
+  <input name="area"><input name="andar"><input name="estado"><input name="extras">
+  <input name="prazo"><input name="estimativa"><input name="consentimento">
+</form>
+
+<footer>
+  <div class="wrap">
+    <p>Diogo Santos · Consultor imobiliário · 916 945 324 · <a href="../privacidade/">Política de privacidade</a></p>
+    <p>Mediação imobiliária: New Cycle - Mediação Imobiliária, Lda. · AMI n.º 7095.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var f = document.getElementById('calc');
+  var passos = [].slice.call(f.querySelectorAll('.passo'));
+  var barra = document.getElementById('barra');
+  var atual = 1;
+  var $ = function(id){ return document.getElementById(id); };
+  var val = function(n){ var el = f.elements[n]; return el ? (el.value || '').trim() : ''; };
+  var fmt = function(n){ return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.'); };
+
+  function mostrar(n){
+    atual = n;
+    passos.forEach(function(p){ p.classList.toggle('ativo', +p.dataset.passo === n); });
+    barra.style.width = Math.min(100, (n - 1) / 5 * 100) + '%';
+    var p = passos[n - 1], alvo = p.querySelector('input:not([type=hidden]):not([tabindex="-1"]),select');
+    window.scrollTo({top: Math.max(0, f.getBoundingClientRect().top + window.scrollY - 80), behavior: 'smooth'});
+    if (alvo && n !== 6) setTimeout(function(){ alvo.focus({preventScroll:true}); }, 250);
+  }
+  function erro(msg){ passos[atual - 1].querySelector('.erro').textContent = msg || ''; return !msg; }
+
+  function validar(n){
+    if (n === 1) {
+      if (!val('concelho')) return erro('Escolha o concelho.');
+      if (val('concelho') === 'outro' && !val('outroConcelho')) return erro('Escreva o concelho.');
+    }
+    if (n === 2) {
+      if (!val('tipo')) return erro('Escolha apartamento ou moradia.');
+      if (!val('tipologia')) return erro('Escolha a tipologia.');
+      var a = +val('area');
+      if (!(a >= 20 && a <= 2000)) return erro('Indique a área útil em m² (entre 20 e 2000).');
+      if (val('tipo') === 'apartamento' && val('andar') === '') return erro('Indique o andar.');
+    }
+    if (n === 3) {
+      if (!val('estado')) return erro('Escolha o estado da casa.');
+      if (!val('prazo')) return erro('Diga-me quando pensa vender.');
+    }
+    if (n === 4) {
+      if (!val('nome')) return erro('Escreva o seu nome.');
+      if (!telOk(val('telemovel'))) return erro('Indique um telemóvel português com 9 dígitos (91, 92, 93 ou 96).');
+      if (val('email') && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(val('email'))) return erro('Confirme o email.');
+      if (!$('consentimento').checked) return erro('Para continuar, aceite a política de privacidade.');
+    }
+    return erro('');
+  }
+  function telOk(t){ return /^9[1236]\d{7}$/.test(t.replace(/\D/g,'').replace(/^(00)?351/, '')); }
+
+  f.addEventListener('click', function(e){
+    if (e.target.closest('[data-seguinte]')) { if (validar(atual)) mostrar(atual + 1); }
+    if (e.target.closest('[data-anterior]')) { erro(''); mostrar(atual - 1); }
+  });
+  f.addEventListener('submit', function(e){ e.preventDefault(); });
+  f.addEventListener('keydown', function(e){
+    if (e.key !== 'Enter' || e.target.tagName === 'TEXTAREA') return;
+    e.preventDefault();
+    var b = passos[atual - 1].querySelector('[data-seguinte],#enviar,#confirmar'); if (b) b.click();
+  });
+
+  // Campos que dependem de outras respostas
+  f.elements.concelho.addEventListener('change', function(){ $('outro-wrap').hidden = this.value !== 'outro'; });
+  function porTipo(){
+    var t = val('tipo');
+    $('andar-wrap').hidden = t !== 'apartamento';
+    f.querySelectorAll('[data-so]').forEach(function(el){
+      var vis = el.dataset.so === t; el.hidden = !vis;
+      if (!vis) el.querySelector('input').checked = false;
+    });
+  }
+  [].forEach.call(f.elements.tipo, function(r){ r.addEventListener('change', porTipo); });
+  porTipo();
+
+  function respostas(){
+    return {
+      concelho: val('concelho'), outroConcelho: val('outroConcelho'), freguesia: val('freguesia'),
+      tipo: val('tipo'), tipologia: val('tipologia'), area: +val('area'), andar: val('andar'),
+      estado: val('estado'), prazo: val('prazo'),
+      extras: [].filter.call(f.elements.extras, function(c){ return c.checked; }).map(function(c){ return c.value; })
+    };
+  }
+  async function api(caminho, corpo){
+    var r = await fetch('/api/' + caminho, {method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify(corpo)});
+    var d = await r.json().catch(function(){ return {}; });
+    if (!r.ok) throw new Error(d.erro || 'Algo correu mal. Tente outra vez.');
+    return d;
+  }
+  function ocupado(btn, sim, txt){ btn.disabled = sim; if (txt) btn.textContent = txt; }
+
+  // Envio do código
+  var relogio;
+  function contagem(){
+    var s = 30, b = $('reenviar'); b.disabled = true; clearInterval(relogio);
+    $('espera').textContent = 'daqui a ' + s + ' s';
+    relogio = setInterval(function(){
+      s--; $('espera').textContent = s > 0 ? 'daqui a ' + s + ' s' : '';
+      if (s <= 0) { clearInterval(relogio); b.disabled = false; }
+    }, 1000);
+  }
+  async function enviarCodigo(btn){
+    var orig = btn.textContent;
+    ocupado(btn, true, 'A enviar…');
+    try {
+      await api('enviar-codigo', {telemovel: val('telemovel'), consentimento: $('consentimento').checked, website: val('website')});
+      $('tel-mostra').textContent = val('telemovel');
+      if (atual !== 5) mostrar(5);
+      erro(''); contagem();
+    } catch (e) { erro(e.message); }
+    ocupado(btn, false, orig);
+  }
+  $('enviar').addEventListener('click', function(){ if (validar(4)) enviarCodigo(this); });
+  $('reenviar').addEventListener('click', function(){ enviarCodigo(this); });
+  $('mudar').addEventListener('click', function(){ erro(''); mostrar(4); });
+  $('codigo').addEventListener('input', function(){
+    this.value = this.value.replace(/\D/g, '').slice(0, 6);
+    if (this.value.length === 6) $('confirmar').click();
+  });
+
+  // Confirmação e resultado
+  $('confirmar').addEventListener('click', async function(){
+    var c = val('codigo');
+    if (c.length !== 6) { erro('O código tem 6 dígitos.'); return; }
+    if (this.disabled) return;
+    ocupado(this, true, 'A confirmar…');
+    try {
+      var d = await api('verificar-codigo', {
+        telemovel: val('telemovel'), codigo: c, nome: val('nome'), email: val('email'),
+        consentimento: $('consentimento').checked, respostas: respostas()
+      });
+      resultado(d.estimativa);
+      mostrar(6);
+    } catch (e) { erro(e.message); }
+    ocupado(this, false, 'Ver o valor');
+  });
+
+  function resultado(est){
+    var r = respostas();
+    var casa = (r.tipo === 'moradia' ? 'Moradia ' : 'Apartamento ') + r.tipologia + ' · ' + fmt(r.area) + ' m²';
+    var wa = 'Olá Diogo, fiz a estimativa no seu site. ' + casa;
+    if (est) {
+      $('res-local').textContent = est.concelho + (r.freguesia ? ' · ' + r.freguesia : '');
+      $('res-intervalo').innerHTML = fmt(est.minimo) + ' €<span>a</span>' + fmt(est.maximo) + ' €';
+      $('res-sub').textContent = casa;
+      $('res-dados').innerHTML =
+        '<div><b>' + fmt(est.m2Concelho) + ' €</b><small>por m², mediana das vendas em ' + est.concelho + '</small></div>' +
+        '<div><b>' + fmt(est.m2Ajustado) + ' €</b><small>por m², ajustado à sua casa</small></div>' +
+        '<div><b>' + fmt(Math.round((est.minimo + est.maximo) / 2)) + ' €</b><small>valor central do intervalo</small></div>';
+      $('res-fonte').textContent = 'Fonte: ' + est.fonte + '. Estimativa automática e indicativa. Não é uma avaliação bancária nem substitui a visita ao imóvel.';
+      wa += ', em ' + est.concelho + '. Deu entre ' + fmt(est.minimo) + ' € e ' + fmt(est.maximo) + ' €. Podemos marcar uma visita?';
+    } else {
+      $('res-local').textContent = r.outroConcelho || 'A sua zona';
+      $('res-intervalo').textContent = 'Vou ver pessoalmente.';
+      $('res-sub').textContent = casa + '. Este concelho ainda não está na calculadora, por isso faço eu as contas.';
+      $('res-dados').hidden = true;
+      $('res-fonte').textContent = '';
+      wa += ', em ' + (r.outroConcelho || 'outro concelho') + '. Pode dizer-me quanto vale?';
+    }
+    $('res-wa').href = 'https://wa.me/351916945324?text=' + encodeURIComponent(wa);
+  }
+})();
+</script>
+</body>
+</html>
