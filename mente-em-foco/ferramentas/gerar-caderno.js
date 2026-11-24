@@ -56,9 +56,11 @@ function slide(s, i, n) {
   }
   if (s.tipo === 'produto') return page(`${D}<div style="position:absolute;left:80px;top:130px;width:560px">
       <div class="h" style="font-size:104px">${s.titulo || `30 dias<br><span class='g'>de foco</span>`}</div>
-      <div style="font:700 26px Inter;letter-spacing:5px;color:#aaa;margin-top:60px">PREÇO DE LANÇAMENTO</div>
+      ${s.semPreco ? `<div style="font:700 26px Inter;letter-spacing:5px;color:#aaa;margin-top:60px">O GUIA</div>
+      <div class="h g" style="font-size:96px;line-height:1.05;margin-top:14px">Um desafio<br>por dia.</div>
+      <div style="font:700 34px/1.45 Inter;color:#eee;margin-top:24px">Preço de lançamento<br>só até ${d.ate}.</div>` : `<div style="font:700 26px Inter;letter-spacing:5px;color:#aaa;margin-top:60px">PREÇO DE LANÇAMENTO</div>
       <div class="h g" style="font-size:190px;line-height:1;margin-top:10px">${d.preco.replace(' €', '<span style="font-size:110px"> €</span>')}</div>
-      <div style="font:700 34px/1.45 Inter;color:#eee;margin-top:16px">Até ${d.ate}. Depois, ${d.preco_depois}.</div>
+      <div style="font:700 34px/1.45 Inter;color:#eee;margin-top:16px">Até ${d.ate}. Depois, ${d.preco_depois}.</div>`}
       <div style="font:500 30px/1.5 Inter;color:#bbb;margin-top:30px">PDF de 47 páginas · recebes logo no email</div></div>
     <img src="${MOCK}" style="position:absolute;right:-150px;top:260px;width:700px;transform:rotate(7deg)">
     <div style="position:absolute;left:80px;right:80px;top:1040px;border:2px solid ${GOLD};background:${GOLD};color:#0a0a0a;padding:28px 34px;font:700 40px Inter;text-align:center;letter-spacing:2px">LINK NA BIO →</div>`);

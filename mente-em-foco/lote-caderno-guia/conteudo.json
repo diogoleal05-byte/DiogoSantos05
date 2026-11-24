@@ -6,21 +6,108 @@
   {
    "data": "2026-12-13",
    "nome": "regra-do-caderno",
-   "leg": "Antes de 2027 começar, pega num caderno e responde a 3 perguntas: onde estou hoje, onde quero estar daqui a 30 dias e o que me está a roubar o foco.\n\nDepois divide os 30 dias em 4 semanas, cada uma com um só foco: limpar o terreno, rotina e energia, trabalho profundo, mentalidade e consistência.\n\nSe quiseres o caminho já feito, dia a dia, está no guia 30 Dias de Foco. Preço de lançamento: 11,97 € até 31/12, depois passa a 19,97 €. Link na bio.\n\nGuarda para começares e envia a alguém que precisa de ler isto.",
+   "leg": "Antes de 2027 começar, pega num caderno e responde a 3 perguntas: onde estou hoje, onde quero estar daqui a 30 dias e o que me está a roubar o foco.\n\nDepois divide os 30 dias em 4 semanas, cada uma com um só foco: limpar o terreno, rotina e energia, trabalho profundo, mentalidade e consistência.\n\nSe quiseres o caminho já feito, dia a dia, está no guia 30 Dias de Foco. O preço de lançamento é só até 31/12. Link na bio.\n\nGuarda para começares e envia a alguém que precisa de ler isto.",
    "slides": [
-    {"tipo": "capa", "t": "Um caderno.<br>Uma caneta.<br><span class='g'>30 dias.</span>", "sub": "O exercício que devias fazer antes de 2027 começar.", "foto": "f0"},
-    {"tipo": "item", "label": "ANTES DE COMEÇAR", "n": "", "t": "15 minutos.<br>Só tu.", "p": "Telemóvel noutra divisão. Qualquer caderno serve. <b>Não é para ficar bonito, é para ser verdade.</b>", "foto": "f1"},
-    {"tipo": "lista", "label": "PERGUNTA 1", "t": "Onde estou<br><span class='g'>hoje?</span>", "itens": ["O que faço todos os dias sem pensar?", "Onde perco mais tempo?", "O que ando a adiar há meses?"]},
-    {"tipo": "lista", "label": "PERGUNTA 2", "t": "Onde quero estar<br><span class='g'>daqui a 30 dias?</span>", "itens": ["Escreve 3 objetivos. <b>Só 3.</b>", "Concretos: “ler 20 páginas por dia”, não “ler mais”.", "Ao lado de cada um: porque é que importa?"]},
-    {"tipo": "lista", "label": "PERGUNTA 3", "t": "O que me está<br><span class='g'>a roubar o foco?</span>", "itens": ["O telemóvel (vê o tempo de ecrã, sem medo)", "As notificações que deixas ligadas", "A hora e o sítio onde te distrais mais", "As desculpas que repetes"]},
-    {"tipo": "item", "label": "AGORA, O PLANO", "n": "", "t": "Não mudes tudo<br>de uma vez.", "p": "Divide os 30 dias em <b>4 semanas</b>. Cada semana tem um só foco.", "foto": "f3"},
-    {"tipo": "item", "label": "SEMANA", "n": "01", "t": "Limpar<br><span class='g'>o terreno</span>", "p": "Notificações a zero, apps fora da vista, telemóvel fora do quarto. <b>Primeiro tiras o que te distrai.</b>"},
-    {"tipo": "item", "label": "SEMANA", "n": "02", "t": "Rotina<br><span class='g'>e energia</span>", "p": "Hora fixa para acordar, luz de manhã, movimento e um ritual para fechar o dia. <b>Sem energia não há foco.</b>"},
-    {"tipo": "item", "label": "SEMANA", "n": "03", "t": "Trabalho<br><span class='g'>profundo</span>", "p": "Blocos de foco curtos, a subir de dia para dia. Uma tarefa de cada vez. <b>É aqui que vês o que consegues fazer.</b>"},
-    {"tipo": "item", "label": "SEMANA", "n": "04", "t": "Mentalidade e<br><span class='g'>consistência</span>", "p": "Como falas contigo e o que fazes quando não te apetece. <b>É aqui que deixa de ser um desafio e passa a ser quem és.</b>"},
-    {"tipo": "item", "label": "DIAS 29 E 30", "n": "", "t": "Olha para trás.<br>Escolhe o que fica.", "p": "Compara com o dia 1 e guarda o que resultou. <b>Entras em 2027 com um plano, não com uma promessa.</b>", "foto": "f2"},
-    {"tipo": "item", "label": "SE CHEGASTE ATÉ AQUI", "n": "", "t": "Não precisas<br>de inventar.", "p": "Pus os 30 dias num guia: <b>um desafio por dia</b>, perguntas para escrever e folhas para imprimir. Só tens de abrir e fazer."},
-    {"tipo": "produto"}
+    {
+     "tipo": "capa",
+     "t": "Um caderno.<br>Uma caneta.<br><span class='g'>30 dias.</span>",
+     "sub": "O exercício que devias fazer antes de 2027 começar.",
+     "foto": "f0"
+    },
+    {
+     "tipo": "item",
+     "label": "ANTES DE COMEÇAR",
+     "n": "",
+     "t": "15 minutos.<br>Só tu.",
+     "p": "Telemóvel noutra divisão. Qualquer caderno serve. <b>Não é para ficar bonito, é para ser verdade.</b>",
+     "foto": "f1"
+    },
+    {
+     "tipo": "lista",
+     "label": "PERGUNTA 1",
+     "t": "Onde estou<br><span class='g'>hoje?</span>",
+     "itens": [
+      "O que faço todos os dias sem pensar?",
+      "Onde perco mais tempo?",
+      "O que ando a adiar há meses?"
+     ]
+    },
+    {
+     "tipo": "lista",
+     "label": "PERGUNTA 2",
+     "t": "Onde quero estar<br><span class='g'>daqui a 30 dias?</span>",
+     "itens": [
+      "Escreve 3 objetivos. <b>Só 3.</b>",
+      "Concretos: “ler 20 páginas por dia”, não “ler mais”.",
+      "Ao lado de cada um: porque é que importa?"
+     ]
+    },
+    {
+     "tipo": "lista",
+     "label": "PERGUNTA 3",
+     "t": "O que me está<br><span class='g'>a roubar o foco?</span>",
+     "itens": [
+      "O telemóvel (vê o tempo de ecrã, sem medo)",
+      "As notificações que deixas ligadas",
+      "A hora e o sítio onde te distrais mais",
+      "As desculpas que repetes"
+     ]
+    },
+    {
+     "tipo": "item",
+     "label": "AGORA, O PLANO",
+     "n": "",
+     "t": "Não mudes tudo<br>de uma vez.",
+     "p": "Divide os 30 dias em <b>4 semanas</b>. Cada semana tem um só foco.",
+     "foto": "f3"
+    },
+    {
+     "tipo": "item",
+     "label": "SEMANA",
+     "n": "01",
+     "t": "Limpar<br><span class='g'>o terreno</span>",
+     "p": "Notificações a zero, apps fora da vista, telemóvel fora do quarto. <b>Primeiro tiras o que te distrai.</b>"
+    },
+    {
+     "tipo": "item",
+     "label": "SEMANA",
+     "n": "02",
+     "t": "Rotina<br><span class='g'>e energia</span>",
+     "p": "Hora fixa para acordar, luz de manhã, movimento e um ritual para fechar o dia. <b>Sem energia não há foco.</b>"
+    },
+    {
+     "tipo": "item",
+     "label": "SEMANA",
+     "n": "03",
+     "t": "Trabalho<br><span class='g'>profundo</span>",
+     "p": "Blocos de foco curtos, a subir de dia para dia. Uma tarefa de cada vez. <b>É aqui que vês o que consegues fazer.</b>"
+    },
+    {
+     "tipo": "item",
+     "label": "SEMANA",
+     "n": "04",
+     "t": "Mentalidade e<br><span class='g'>consistência</span>",
+     "p": "Como falas contigo e o que fazes quando não te apetece. <b>É aqui que deixa de ser um desafio e passa a ser quem és.</b>"
+    },
+    {
+     "tipo": "item",
+     "label": "DIAS 29 E 30",
+     "n": "",
+     "t": "Olha para trás.<br>Escolhe o que fica.",
+     "p": "Compara com o dia 1 e guarda o que resultou. <b>Entras em 2027 com um plano, não com uma promessa.</b>",
+     "foto": "f2"
+    },
+    {
+     "tipo": "item",
+     "label": "SE CHEGASTE ATÉ AQUI",
+     "n": "",
+     "t": "Não precisas<br>de inventar.",
+     "p": "Pus os 30 dias num guia: <b>um desafio por dia</b>, perguntas para escrever e folhas para imprimir. Só tens de abrir e fazer."
+    },
+    {
+     "tipo": "produto",
+     "semPreco": true
+    }
    ]
   }
  ]
