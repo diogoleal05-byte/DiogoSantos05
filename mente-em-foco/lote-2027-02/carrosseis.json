@@ -1,0 +1,645 @@
+{
+ "carrosseis": [
+  {
+   "data": "2027-02-01",
+   "nome": "descansar-ou-fugir",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "c01",
+     "t": "<span class='g'>5 sinais</span><br>de que não estás<br>a descansar.<br>Estás a fugir.",
+     "sub": "O 3.º é o mais comum."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Pegas no telemóvel<br><span class='g'>antes de cansar.</span>",
+     "p": "Ainda nem começaste e já precisas de uma pausa.<br><b>Isso não é cansaço. É fuga.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "A pausa de 5 minutos<br><span class='g'>dura uma hora.</span>",
+     "p": "Descanso a sério tem fim.<br><b>Fuga não tem.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Sais da pausa<br><span class='g'>mais cansado.</span>",
+     "p": "Scroll não descansa a cabeça. Enche-a.<br><b>Por isso voltas pior.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Sentes culpa<br><span class='g'>enquanto descansas.</span>",
+     "p": "Descanso verdadeiro deixa-te leve.<br><b>A culpa é sinal de que estás a adiar.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Arranjas sempre<br><span class='g'>mais uma coisa.</span>",
+     "p": "Mais um vídeo, mais um email, mais um café.<br><b>Tudo menos a tarefa.</b>"
+    },
+    {
+     "tipo": "fim",
+     "foto": "montanha",
+     "t": "Descansar é parar<br>depois de fazer.<br><span class='g'>Fugir é parar<br>antes de começar.</span>"
+    }
+   ],
+   "leg": "Descansar e fugir parecem iguais. Não são.\n\nQual destes sinais é o teu? Diz o número.\n\nGuarda para te lembrares na próxima pausa.\n\nSe queres um plano para trocar a fuga por foco, o guia 30 Dias de Foco está no link da bio.\n\n#foco #procrastinacao #descanso #produtividade #menteemfoco"
+  },
+  {
+   "data": "2027-02-03",
+   "nome": "porque-adias",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "c02",
+     "t": "Não és<br>preguiçoso.<br><span class='g'>Adias por<br>4 razões.</span>",
+     "sub": "E cada uma tem solução."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Medo de<br><span class='g'>não fazer bem.</span>",
+     "p": "Se não começas, não falhas.<br><b>Solução:</b> faz uma primeira versão má, de propósito."
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "A tarefa é<br><span class='g'>grande demais.</span>",
+     "p": "O cérebro foge do que não vê como acabar.<br><b>Solução:</b> parte-a até o primeiro passo caber em 10 minutos."
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Não sabes<br><span class='g'>por onde começar.</span>",
+     "p": "Confusão parece cansaço.<br><b>Solução:</b> escreve o próximo passo. Só um."
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Não vês<br><span class='g'>o resultado.</span>",
+     "p": "O prémio está longe, a distração está aqui.<br><b>Solução:</b> marca cada dia feito. Ver progresso dá vontade."
+    },
+    {
+     "tipo": "fim",
+     "foto": "xadrez",
+     "t": "Adiar não é<br>defeito.<br><span class='g'>É um sinal.<br>Ouve-o.</span>"
+    }
+   ],
+   "leg": "Procrastinar não é preguiça. Quase sempre é uma destas 4 coisas.\n\nQual é a tua? Responde com o número.\n\nGuarda e envia a quem diz que é preguiçoso.\n\nNo guia 30 Dias de Foco tens um desafio por dia para atacar isto, passo a passo. Link na bio.\n\n#procrastinacao #foco #habitos #produtividade #menteemfoco"
+  },
+  {
+   "data": "2027-02-05",
+   "nome": "comecar-tarefa-adiada",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "c03",
+     "t": "A tarefa que<br>adias há semanas.<br><span class='g'>Começa-a hoje<br>em 5 passos.</span>",
+     "sub": "Guarda. Vais precisar disto."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Escreve-a<br><span class='g'>num papel.</span>",
+     "p": "Fora da cabeça, fica mais pequena.<br><b>Uma frase chega.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Encontra o<br><span class='g'>passo ridículo.</span>",
+     "p": "Tão pequeno que é impossível dizer que não.<br><b>Abrir o ficheiro. Escrever o título.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Põe 10 minutos<br><span class='g'>no relógio.</span>",
+     "p": "Só 10. Depois podes parar.<br><b>Quase nunca vais parar.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Telemóvel<br><span class='g'>noutra divisão.</span>",
+     "p": "Não na mesa. Não virado ao contrário.<br><b>Noutra divisão.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Marca que<br><span class='g'>começaste.</span>",
+     "p": "Um visto no papel.<br><b>Amanhã, repetes.</b>"
+    },
+    {
+     "tipo": "fim",
+     "foto": "corrida",
+     "t": "Não tens de<br>acabar hoje.<br><span class='g'>Só tens de<br>começar.</span>"
+    }
+   ],
+   "leg": "A tarefa que andas a adiar não é difícil. Começar é que é.\n\n5 passos para a começares ainda hoje. Qual é a tua tarefa? Escreve-a nos comentários, ajuda a assumir.\n\nGuarda para quando precisares.\n\nQueres isto durante 30 dias seguidos? O guia 30 Dias de Foco está no link da bio.\n\n#procrastinacao #foco #produtividade #disciplina #menteemfoco"
+  },
+  {
+   "data": "2027-02-08",
+   "nome": "definicoes-telemovel",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "telemovel",
+     "t": "<span class='g'>6 definições</span><br>do telemóvel que<br>te devolvem<br>1 hora por dia.",
+     "sub": "Demora 5 minutos. Guarda e faz hoje."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Ecrã a preto<br><span class='g'>e branco.</span>",
+     "p": "Sem cores, as apps perdem a graça.<br><b>Abres muito menos vezes.</b><br>Está nas definições de acessibilidade."
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Notificações<br><span class='g'>só de pessoas.</span>",
+     "p": "Desliga as de todas as apps.<br>Ficam só chamadas e mensagens<br><b>de quem importa.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "foto": "notificacoes",
+     "t": "30 minutos<br><span class='g'>por rede social.</span>",
+     "p": "Põe um limite diário.<br>Quando acaba, acabou.<br><b>Tempo de ecrã</b> (iPhone) ou<br><b>Bem-estar digital</b> (Android)."
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Modo foco<br><span class='g'>com horário.</span>",
+     "p": "Liga sozinho das 9h às 12h.<br><b>Ninguém te interrompe</b><br>no trabalho que importa."
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Redes fora do<br><span class='g'>ecrã inicial.</span>",
+     "p": "Tira-as da primeira página.<br>Se tens de as procurar,<br><b>já não abres sem pensar.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "06",
+     "t": "Modo dormir<br><span class='g'>às 22h30.</span>",
+     "p": "O ecrã escurece e tudo fica em silêncio.<br><b>Dormes melhor.</b><br>Acordas com a cabeça limpa."
+    },
+    {
+     "tipo": "fim",
+     "foto": "montanha",
+     "t": "Não faças<br>as 6 hoje.<br><span class='g'>Faz uma.<br>Agora.</span>"
+    }
+   ],
+   "leg": "6 definições do telemóvel para recuperares o foco (e cerca de 1 hora por dia).\n\nNão precisas de força de vontade. Precisas de pôr o telemóvel a trabalhar a teu favor.\n\nQual vais ligar primeiro? Diz o número.\n\nGuarda para fazeres hoje. Envia a quem vive agarrado ao telemóvel.\n\nE se quiseres um plano para 30 dias, o guia 30 Dias de Foco está no link da bio.\n\n#foco #procrastinacao #telemovel #produtividade #menteemfoco"
+  },
+  {
+   "data": "2027-02-10",
+   "nome": "frases-quando-adias",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "c04",
+     "t": "<span class='g'>5 frases</span><br>que dizes<br>quando estás<br>a adiar.",
+     "sub": "Já disseste pelo menos 3."
+    },
+    {
+     "tipo": "mito",
+     "n": "01",
+     "mito": "“Trabalho melhor sob pressão.”",
+     "v": "Trabalhas <b>mais depressa</b>. Não melhor."
+    },
+    {
+     "tipo": "mito",
+     "n": "02",
+     "mito": "“Só vou ver uma coisa rápida.”",
+     "v": "Nunca é uma. <b>Nunca é rápida.</b>"
+    },
+    {
+     "tipo": "mito",
+     "n": "03",
+     "mito": "“Amanhã começo a sério.”",
+     "v": "Amanhã vais ter as <b>mesmas desculpas</b>."
+    },
+    {
+     "tipo": "mito",
+     "n": "04",
+     "mito": "“Preciso de estar inspirado.”",
+     "v": "A vontade aparece <b>depois</b> de começares."
+    },
+    {
+     "tipo": "mito",
+     "n": "05",
+     "mito": "“Primeiro arrumo tudo.”",
+     "v": "Arrumar também é <b>uma forma de adiar</b>."
+    },
+    {
+     "tipo": "fim",
+     "foto": "telemovel",
+     "t": "Apanhaste-te<br>numa delas?<br><span class='g'>Já é meio<br>caminho.</span>"
+    }
+   ],
+   "leg": "Todos já dissemos estas frases. O problema é acreditar nelas.\n\nQual é a que mais usas? Diz o número.\n\nEnvia a quem diz a 3.ª todos os dias.\n\nPara deixares de adiar com um plano simples, dia a dia: guia 30 Dias de Foco, link na bio.\n\n#procrastinacao #foco #mentalidade #produtividade #menteemfoco"
+  },
+  {
+   "data": "2027-02-12",
+   "nome": "dia-em-3-blocos",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "c05",
+     "t": "Organiza<br>o teu dia em<br><span class='g'>3 blocos.</span>",
+     "sub": "Simples. Funciona. Guarda."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Manhã:<br><span class='g'>o difícil.</span>",
+     "p": "A tarefa que mais pesa, primeiro.<br><b>Sem telemóvel. 90 minutos.</b>",
+     "label": "BLOCO"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Tarde:<br><span class='g'>o resto.</span>",
+     "p": "Emails, reuniões, recados.<br><b>Tudo junto, num só bloco.</b>",
+     "label": "BLOCO"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Noite:<br><span class='g'>desligar.</span>",
+     "p": "Prepara amanhã em 5 minutos.<br><b>Depois, descansa a sério.</b>",
+     "label": "BLOCO"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Um bloco<br><span class='g'>de cada vez.</span>",
+     "p": "Não misturas.<br>Quando é manhã, <b>só o difícil.</b>",
+     "label": "REGRA"
+    },
+    {
+     "tipo": "fim",
+     "foto": "montanha",
+     "t": "Um dia com<br>forma rende<br><span class='g'>o dobro.</span>"
+    }
+   ],
+   "leg": "Não precisas de uma agenda complicada. Precisas de 3 blocos.\n\nGuarda e experimenta amanhã. Depois conta como correu.\n\nNo guia 30 Dias de Foco tens o plano semanal pronto a preencher. Link na bio.\n\n#produtividade #foco #organizacao #rotina #menteemfoco"
+  },
+  {
+   "data": "2027-02-15",
+   "nome": "consomes-demais",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "c06",
+     "t": "<span class='g'>5 sinais</span><br>de que consomes<br>demais e fazes<br>de menos.",
+     "sub": "Sê honesto contigo."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Sabes muito sobre<br><span class='g'>o que não fazes.</span>",
+     "p": "Vídeos de treino, livros de negócios, podcasts.<br><b>E zero prática.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Guardas posts<br><span class='g'>que nunca abres.</span>",
+     "p": "Guardar dá a sensação de fazer.<br><b>Não é.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Precisas de som<br><span class='g'>o tempo todo.</span>",
+     "p": "No carro, no banho, a comer.<br><b>Nunca ficas a sós com a cabeça.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Começas o dia<br><span class='g'>no telemóvel.</span>",
+     "p": "Antes de pensares no teu dia,<br><b>já leste o dos outros.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Planeias mais<br><span class='g'>do que fazes.</span>",
+     "p": "Listas, apps, métodos.<br><b>Falta o mais simples: começar.</b>"
+    },
+    {
+     "tipo": "fim",
+     "foto": "corrida",
+     "t": "Consome<br>menos.<br><span class='g'>Faz mais.</span>"
+    }
+   ],
+   "leg": "Ironia: estás a consumir este post. Então faz já uma coisa com ele.\n\nQual destes sinais é o teu? Diz o número.\n\nGuarda e escolhe um para mudar esta semana.\n\nPara passares de consumir a fazer, um dia de cada vez: guia 30 Dias de Foco, link na bio.\n\n#foco #produtividade #habitos #disciplina #menteemfoco"
+  },
+  {
+   "data": "2027-02-17",
+   "nome": "antes-de-dizer-sim",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "c07",
+     "t": "Antes de<br>dizeres que sim,<br><span class='g'>faz estas<br>3 perguntas.</span>",
+     "sub": "Poupa-te semanas."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Isto aproxima-me<br><span class='g'>do que quero?</span>",
+     "p": "Se não aproxima, afasta.<br><b>Não há neutro.</b>",
+     "label": "PERGUNTA"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Diria que sim<br><span class='g'>se fosse amanhã?</span>",
+     "p": "O daqui a um mês parece leve.<br><b>Quando chega, pesa igual.</b>",
+     "label": "PERGUNTA"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "O que deixo<br><span class='g'>de fazer?</span>",
+     "p": "Cada sim tira tempo a outra coisa.<br><b>Sabe o quê, antes de aceitar.</b>",
+     "label": "PERGUNTA"
+    },
+    {
+     "tipo": "fim",
+     "foto": "xadrez",
+     "t": "Dizer não<br>a muito é<br><span class='g'>dizer sim<br>ao que importa.</span>"
+    }
+   ],
+   "leg": "Muitas semanas perdem-se num sim dito sem pensar.\n\nGuarda para a próxima vez que te pedirem alguma coisa.\n\nEnvia a quem não consegue dizer que não.\n\nO guia 30 Dias de Foco ajuda-te a proteger o teu tempo, com um desafio por dia. Link na bio.\n\n#foco #produtividade #prioridades #mentalidade #menteemfoco"
+  },
+  {
+   "data": "2027-02-19",
+   "nome": "desafio-manhas-sem-telemovel",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "c09",
+     "t": "Desafio de<br><span class='g'>7 dias:</span><br>manhãs sem<br>telemóvel.",
+     "sub": "Tirado do guia 30 Dias de Foco."
+    },
+    {
+     "tipo": "item",
+     "n": "1-2",
+     "t": "Primeira hora<br><span class='g'>sem ecrã.</span>",
+     "p": "O telemóvel carrega fora do quarto.<br><b>Usa um despertador barato.</b>",
+     "label": "DIA"
+    },
+    {
+     "tipo": "item",
+     "n": "3-4",
+     "t": "Água, luz,<br><span class='g'>movimento.</span>",
+     "p": "Um copo de água, janela aberta, 5 minutos a andar.<br><b>Acordas mais depressa do que com scroll.</b>",
+     "label": "DIA"
+    },
+    {
+     "tipo": "item",
+     "n": "5-6",
+     "t": "A tarefa<br><span class='g'>mais difícil.</span>",
+     "p": "Usa essa hora limpa para o que mais adias.<br><b>Antes de abrires qualquer app.</b>",
+     "label": "DIA"
+    },
+    {
+     "tipo": "item",
+     "n": "7",
+     "t": "Olha<br><span class='g'>para trás.</span>",
+     "p": "Como foram as manhãs?<br><b>Escreve o que mudou.</b>",
+     "label": "DIA"
+    },
+    {
+     "tipo": "produto",
+     "titulo": "Gostaste?<br><span class='g'>Há mais<br>23 dias.</span>",
+     "p": "30 desafios, um por dia.<br>Registo e plano semanal."
+    },
+    {
+     "tipo": "fim",
+     "foto": "montanha",
+     "t": "Começa<br>amanhã<br><span class='g'>de manhã.</span>"
+    }
+   ],
+   "leg": "Desafio de 7 dias: manhãs sem telemóvel. Começa amanhã.\n\nEste desafio vem do guia 30 Dias de Foco. Lá tens mais 23 dias como este, com registo diário e plano semanal. 11,97 €, link na bio.\n\nVais aceitar? Escreve \"eu\" nos comentários.\n\n#foco #telemovel #rotinamatinal #disciplina #menteemfoco"
+  },
+  {
+   "data": "2027-02-22",
+   "nome": "o-que-os-focados-cortaram",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "c10",
+     "t": "<span class='g'>5 coisas</span><br>que as pessoas<br>focadas deixaram<br>de fazer.",
+     "sub": "Não é o que fazem. É o que cortaram."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Responder<br><span class='g'>na hora.</span>",
+     "p": "Respondem quando escolhem.<br><b>Não quando o telemóvel apita.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Fazer tudo<br><span class='g'>ao mesmo tempo.</span>",
+     "p": "Uma coisa até ao fim.<br><b>Depois a próxima.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Esperar<br><span class='g'>pela vontade.</span>",
+     "p": "Têm hora marcada.<br><b>A vontade vem depois.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Dizer sim<br><span class='g'>a tudo.</span>",
+     "p": "Protegem o tempo<br><b>como protegem o dinheiro.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Começar o dia<br><span class='g'>no scroll.</span>",
+     "p": "A primeira hora é delas.<br><b>Não do feed.</b>"
+    },
+    {
+     "tipo": "fim",
+     "foto": "corrida",
+     "t": "Para ganhar<br>foco, primeiro<br><span class='g'>corta.</span>"
+    }
+   ],
+   "leg": "Foco não é fazer mais. É cortar o que te rouba.\n\nQual destas ainda fazes? Diz o número, sem vergonha.\n\nGuarda e envia a quem precisa.\n\nPara cortares uma de cada vez, com um plano: guia 30 Dias de Foco, link na bio.\n\n#foco #disciplina #habitos #produtividade #menteemfoco"
+  },
+  {
+   "data": "2027-02-24",
+   "nome": "lista-do-nao-fazer",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "c11",
+     "t": "A lista<br>do <span class='g'>não fazer.</span><br>7 coisas<br>a cortar.",
+     "sub": "Mais importante que a lista de tarefas."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "Ver o telemóvel<br><span class='g'>ao acordar.</span>",
+     "p": "<b>A primeira hora é tua.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "Abrir o email<br><span class='g'>a toda a hora.</span>",
+     "p": "Três vezes por dia chega.<br><b>Ninguém vai notar.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Trabalhar<br><span class='g'>com a TV ligada.</span>",
+     "p": "Metade da atenção<br><b>dá metade do trabalho.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "Reuniões<br><span class='g'>sem objetivo.</span>",
+     "p": "Sem objetivo,<br><b>não é reunião. É conversa.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "05",
+     "t": "Comer<br><span class='g'>a olhar para o ecrã.</span>",
+     "p": "<b>Faz uma pausa a sério.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "06",
+     "t": "Telemóvel<br><span class='g'>na cama.</span>",
+     "p": "Dormes pior.<br><b>Rendes pior.</b>"
+    },
+    {
+     "tipo": "item",
+     "n": "07",
+     "t": "Começar sem<br><span class='g'>prioridade.</span>",
+     "p": "Decide na véspera.<br><b>Uma coisa, a mais importante.</b>"
+    },
+    {
+     "tipo": "fim",
+     "foto": "telemovel",
+     "t": "Escolhe uma.<br><span class='g'>Corta-a<br>esta semana.</span>"
+    }
+   ],
+   "leg": "Toda a gente tem lista de tarefas. Quase ninguém tem lista do não fazer.\n\nQual vais cortar primeiro? Diz o número.\n\nGuarda e imprime, se for preciso.\n\nO guia 30 Dias de Foco tem um desafio por dia para cortares estas coisas aos poucos. Link na bio.\n\n#foco #produtividade #habitos #minimalismo #menteemfoco"
+  },
+  {
+   "data": "2027-02-26",
+   "nome": "revisao-fevereiro-plano-marco",
+   "slides": [
+    {
+     "tipo": "capa",
+     "foto": "c12",
+     "t": "Fevereiro<br>acabou.<br><span class='g'>Faz esta revisão<br>em 10 minutos.</span>",
+     "sub": "E entra em março com plano."
+    },
+    {
+     "tipo": "item",
+     "n": "01",
+     "t": "O que<br><span class='g'>resultou?</span>",
+     "p": "Escreve 3 coisas.<br><b>Essas ficam.</b>",
+     "label": "PERGUNTA"
+    },
+    {
+     "tipo": "item",
+     "n": "02",
+     "t": "O que te<br><span class='g'>roubou tempo?</span>",
+     "p": "Uma app, uma pessoa, um hábito.<br><b>Dá-lhe nome.</b>",
+     "label": "PERGUNTA"
+    },
+    {
+     "tipo": "item",
+     "n": "03",
+     "t": "Uma meta<br><span class='g'>para março.</span>",
+     "p": "Só uma.<br><b>Pequena o suficiente para cumprires.</b>",
+     "label": "PERGUNTA"
+    },
+    {
+     "tipo": "item",
+     "n": "04",
+     "t": "O primeiro<br><span class='g'>passo.</span>",
+     "p": "O que fazes a 1 de março?<br><b>Escreve já.</b>",
+     "label": "PERGUNTA"
+    },
+    {
+     "tipo": "produto",
+     "titulo": "Março com<br><span class='g'>plano feito.</span>",
+     "p": "30 dias, um desafio por dia.<br>Começa a 1 de março."
+    },
+    {
+     "tipo": "fim",
+     "foto": "montanha",
+     "t": "Março<br>começa<br><span class='g'>hoje.</span>"
+    }
+   ],
+   "leg": "10 minutos de revisão hoje valem um março inteiro com foco.\n\nResponde às 4 perguntas num papel. Qual é a tua meta para março? Escreve aqui.\n\nSe queres março já planeado, o guia 30 Dias de Foco dá-te um desafio por dia, registo e plano semanal. Começa a 1 de março. 11,97 €, link na bio.\n\n#foco #objetivos #planeamento #disciplina #menteemfoco"
+  }
+ ],
+ "prompts": [
+  {
+   "nome": "c01",
+   "ar": "3:4",
+   "prompt": "young man slumped on a sofa in a dark room scrolling his phone, face lit by the screen, cinematic photograph, dark moody low-key lighting, black and warm golden tones, high contrast, shallow depth of field, film grain, realistic, no text, no logos, subject in the lower half, darker empty upper half"
+  },
+  {
+   "nome": "c02",
+   "ar": "3:4",
+   "prompt": "man sitting at a desk at night with his head in his hands, single warm desk lamp, laptop closed, cinematic photograph, dark moody low-key lighting, black and warm golden tones, high contrast, shallow depth of field, film grain, realistic, no text, no logos, subject in the lower half, darker empty upper half"
+  },
+  {
+   "nome": "c03",
+   "ar": "3:4",
+   "prompt": "close-up of a hand writing the first line in a blank notebook under a warm lamp at night, cinematic photograph, dark moody low-key lighting, black and warm golden tones, high contrast, shallow depth of field, film grain, realistic, no text, no logos, subject in the lower half, darker empty upper half"
+  },
+  {
+   "nome": "c04",
+   "ar": "3:4",
+   "prompt": "man lying in bed late at night looking at his phone, dark bedroom, face lit by screen, cinematic photograph, dark moody low-key lighting, black and warm golden tones, high contrast, shallow depth of field, film grain, realistic, no text, no logos, subject in the lower half, darker empty upper half"
+  },
+  {
+   "nome": "c05",
+   "ar": "3:4",
+   "prompt": "early morning desk by a window with coffee and an open planner, first golden sunlight, dark room, cinematic photograph, dark moody low-key lighting, black and warm golden tones, high contrast, shallow depth of field, film grain, realistic, no text, no logos, subject in the lower half, darker empty upper half"
+  },
+  {
+   "nome": "c06",
+   "ar": "3:4",
+   "prompt": "man with earbuds sitting on a dark train at night staring at his phone, window reflections, cinematic photograph, dark moody low-key lighting, black and warm golden tones, high contrast, shallow depth of field, film grain, realistic, no text, no logos, subject in the lower half, darker empty upper half"
+  },
+  {
+   "nome": "c07",
+   "ar": "3:4",
+   "prompt": "man in a dark office at night looking out the window thoughtfully, city lights, golden lamp, cinematic photograph, dark moody low-key lighting, black and warm golden tones, high contrast, shallow depth of field, film grain, realistic, no text, no logos, subject in the lower half, darker empty upper half"
+  },
+  {
+   "nome": "c09",
+   "ar": "3:4",
+   "prompt": "man drinking a glass of water by a bright window at sunrise, dark room, phone charging far away on a shelf, cinematic photograph, dark moody low-key lighting, black and warm golden tones, high contrast, shallow depth of field, film grain, realistic, no text, no logos, subject in the lower half, darker empty upper half"
+  },
+  {
+   "nome": "c10",
+   "ar": "3:4",
+   "prompt": "focused man working on a laptop in a dark room, golden rim light on his face, serious expression, cinematic photograph, dark moody low-key lighting, black and warm golden tones, high contrast, shallow depth of field, film grain, realistic, no text, no logos, subject in the lower half, darker empty upper half"
+  },
+  {
+   "nome": "c11",
+   "ar": "3:4",
+   "prompt": "notebook on a dark desk with a handwritten list where lines are crossed out, pen, warm lamp, illegible handwriting, cinematic photograph, dark moody low-key lighting, black and warm golden tones, high contrast, shallow depth of field, film grain, realistic, no text, no logos, subject in the lower half, darker empty upper half"
+  },
+  {
+   "nome": "c12",
+   "ar": "3:4",
+   "prompt": "desk calendar and coffee cup by a window at sunrise, golden light, dark room, cinematic photograph, dark moody low-key lighting, black and warm golden tones, high contrast, shallow depth of field, film grain, realistic, no text, no logos, subject in the lower half, darker empty upper half"
+  }
+ ]
+}
