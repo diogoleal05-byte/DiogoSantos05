@@ -8,7 +8,8 @@
      "tipo": "capa",
      "foto": "c01",
      "t": "<span class='g'>5 sinais</span><br>de que não estás<br>a descansar.<br>Estás a fugir.",
-     "sub": "O 3.º é o mais comum."
+     "sub": "O 3.º é o mais comum.",
+     "fs": 116
     },
     {
      "tipo": "item",
@@ -98,7 +99,8 @@
      "tipo": "capa",
      "foto": "c03",
      "t": "A tarefa que<br>adias há semanas.<br><span class='g'>Começa-a hoje<br>em 5 passos.</span>",
-     "sub": "Guarda. Vais precisar disto."
+     "sub": "Guarda. Vais precisar disto.",
+     "fs": 116
     },
     {
      "tipo": "item",
@@ -295,7 +297,8 @@
      "tipo": "capa",
      "foto": "c06",
      "t": "<span class='g'>5 sinais</span><br>de que consomes<br>demais e fazes<br>de menos.",
-     "sub": "Sê honesto contigo."
+     "sub": "Sê honesto contigo.",
+     "fs": 116
     },
     {
      "tipo": "item",
@@ -343,7 +346,8 @@
      "tipo": "capa",
      "foto": "c07",
      "t": "Antes de<br>dizeres que sim,<br><span class='g'>faz estas<br>3 perguntas.</span>",
-     "sub": "Poupa-te semanas."
+     "sub": "Poupa-te semanas.",
+     "fs": 116
     },
     {
      "tipo": "item",
@@ -433,7 +437,8 @@
      "tipo": "capa",
      "foto": "c10",
      "t": "<span class='g'>5 coisas</span><br>que as pessoas<br>focadas deixaram<br>de fazer.",
-     "sub": "Não é o que fazem. É o que cortaram."
+     "sub": "Não é o que fazem. É o que cortaram.",
+     "fs": 116
     },
     {
      "tipo": "item",
@@ -541,7 +546,8 @@
      "tipo": "capa",
      "foto": "c12",
      "t": "Fevereiro<br>acabou.<br><span class='g'>Faz esta revisão<br>em 10 minutos.</span>",
-     "sub": "E entra em março com plano."
+     "sub": "E entra em março com plano.",
+     "fs": 116
     },
     {
      "tipo": "item",

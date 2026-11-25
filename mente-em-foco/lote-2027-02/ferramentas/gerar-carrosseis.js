@@ -33,8 +33,8 @@ const dots = (i, n) => `<div class="dots">${Array.from({ length: n }, (_, k) => 
 function slide(s, i, n) {
   const D = dots(i, n);
   if (s.tipo === 'capa') return page(`<div style="position:absolute;top:70px;left:80px">${LOGO}</div>${D}
-    <div class="h" style="position:absolute;left:80px;right:80px;top:250px;font-size:128px">${s.t}</div>
-    <div style="position:absolute;left:80px;right:80px;top:${250 + (s.t.split('<br>').length) * 132 + 40}px;font:700 42px Inter;color:#eee;text-shadow:0 2px 12px #000">${s.sub}</div>
+    <div style="position:absolute;left:80px;right:80px;top:250px"><div class="h" style="font-size:${s.fs || 128}px">${s.t}</div>
+    <div style="margin-top:40px;font:700 42px Inter;color:#eee;text-shadow:0 2px 12px #000">${s.sub}</div></div>
     <div class="swipe">DESLIZA →</div>`, s.foto);
   if (s.tipo === 'item') {
     const label = `${s.label || ''}${s.label ? ' ' : ''}${s.n}`;
